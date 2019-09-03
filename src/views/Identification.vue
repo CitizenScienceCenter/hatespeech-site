@@ -1078,7 +1078,7 @@ export default {
 
     .progress {
       font-size: 0;
-      text-align: center;
+      text-align: right;
       .progress-bar {
         height: 40px;
         width: 48px;
@@ -1100,7 +1100,8 @@ export default {
         }
       }
       .text {
-        display: inline-block;
+        display: block;
+        float: right;
         line-height: 40px;
         font-size: $font-size-small;
       }
@@ -1149,6 +1150,12 @@ export default {
 
       .progress {
         text-align: left;
+        .progress-bar {
+          float: left;
+        }
+        .text {
+          float: none;
+        }
       }
 
     }
