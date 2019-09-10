@@ -50,7 +50,7 @@
     </app-cover>
 
 
-    <section-stats color="greyish" :submissionCount="totalSubmissionCount" :taskCount="totalTaskCount" ></section-stats>
+    <section-stats color="greyish" :userCount="totalUserCount" :submissionCount="totalSubmissionCount" :taskCount="totalTaskCount" ></section-stats>
 
 
     <app-content-section>
