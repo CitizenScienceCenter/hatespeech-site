@@ -129,7 +129,7 @@
       </div>
     </app-content-section>
 
-    <section-feedback color="light-greyish" email="hatespeech@citizenscience.ch"></section-feedback>
+    <section-feedback color="light-greyish" email="help@citizenscience.ch" :subject="$t('site-name')"></section-feedback>
 
     <section-s-d-g goal="5" color="greyish">
       This project supports Goal 5: Achieve gender equality and empower all women and girls, and in particular target 5.2 on eliminating all forms of violence against all women in the public sphere.

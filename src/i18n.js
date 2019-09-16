@@ -33,6 +33,7 @@ export const i18n = new VueI18n({
   messages: {
       'de': {
 
+          "site-name": "Hate Speech",
           "site-title": "Hate Speech | Citizen Science Center Zurich",
           "site-description": "Geschlechterspezfische Hassausdrücke in Whatsapp Texten",
 

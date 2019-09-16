@@ -52,7 +52,7 @@
       </div>
     </app-content-section>
 
-    <section-feedback email="hatespeech@citizenscience.ch"></section-feedback>
+    <section-feedback email="help@citizenscience.ch" :subject="$t('site-name')"></section-feedback>
 
     <section-newsletter-signup></section-newsletter-signup>
 
