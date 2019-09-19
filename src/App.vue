@@ -13,7 +13,7 @@
 
 <template>
   <div id="app">
-    <app-header project-name="Hate<br/>Speech" :languages="['de']"></app-header>
+    <app-header project-name="Hate<br/>Speech" :languages="['de']" beta></app-header>
     <div class="content-area">
       <router-view></router-view>
     </div>
