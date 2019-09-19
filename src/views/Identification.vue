@@ -599,7 +599,8 @@ export default {
           taskId: undefined,
           hasSubmissionAlready: false,
 
-          taskLoaded: false
+          taskLoaded: false,
+          loadTryCounter: 0
       }
   },
   computed: {
@@ -687,7 +688,6 @@ export default {
           this.noHateSpeech = false;
           this.wrongLanguage = false;
 
-
           let taskQuery;
           if( !this.taskId ) {
               // without id
@@ -752,55 +752,7 @@ export default {
 
           }
 
-
           this.$store.dispatch('c3s/task/getTasks', [taskQuery, 1]).then(tasks => {
-
-              this.hasSubmissionAlready = false;
-
-              //if( this.taskId ) {
-              if( false ) {
-                  // loaded with id, check for submissions
-                  console.log('has task id, check for submissions');
-
-                  let query = {
-                      'select': {
-                          'fields': [
-                              '*'
-                          ],
-                          'tables': [
-                              'submissions'
-                          ]
-                      },
-                      'where': [
-                          {
-                              'field': 'task_id',
-                              'op': 'e',
-                              'val': this.taskId
-                          },
-                          {
-                              'field': 'user_id',
-                              'op': 'e',
-                              'val': this.currentUser.id,
-                              'join': 'a'
-                          }
-                      ]
-                  };
-
-                  this.$store.dispatch('c3s/submission/getSubmissions', [query,0] ).then(submissions => {
-
-
-                      if( submissions.body.length > 0 ) {
-                          this.hasSubmissionAlready = true;
-                      }
-                      else {
-                          this.hasSubmissionAlready = false;
-                      }
-
-                      this.taskId = false;
-
-                  });
-
-              }
 
               if ( this.tasks[0] ) {
 
@@ -811,14 +763,25 @@ export default {
 
 
                   this.taskLoaded = true;
+                  this.loadTryCounter = 0;
                   this.taskId = undefined;
 
               }
 
               else {
 
-                  console.log('no more tasks');
-                  this.$router.push('/complete');
+                  console.log('load failed');
+                  if( this.loadTryCounter < 5 ) {
+                      this.loadTryCounter++;
+                      console.log('try again');
+                      this.loadTask();
+                  }
+                  else {
+                      console.log('failed to load 5 times');
+                      this.loadTryCounter = 0;
+                      this.$router.push('/');
+                  }
+
 
               }
 
