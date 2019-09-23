@@ -47,6 +47,10 @@ export default {
                   content: this.$t('site-description')
               },
               {
+                  property: 'og:description',
+                  content: this.$t('site-description')
+              },
+              {
                   property: 'og:type',
                   content: 'website'
               },
