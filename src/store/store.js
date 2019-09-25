@@ -30,7 +30,8 @@ else {
         modules: {
             settings,
             consts,
-            gdpr
+            gdpr,
+            stats
         },
         strict: debug
     });
