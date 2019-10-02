@@ -45,51 +45,51 @@ const actions = {
 
     updateTotalUserAndSubmissionCount({state, commit, rootState}) {
 
-        //console.log('update total user and submission count');
-
-
         const allSubmissionsQuery = {
             "select": {
                 "fields": [
-                    "count(*)"
+                    "users.username",
+                    "count(*) as subs"
                 ],
                 "tables": [
                     "submissions"
                 ],
                 "groupBy": [
-                    "user_id"
-                ]
+                    "users.username"
+                ],
+                "orderBy": {
+                    "subs": 'DESC'
+                }
             },
             "join": {
                 "type": "LEFT",
                 "conditions":{
                     "from": {
-                        "table": "tasks",
+                        "table": "users",
                         "field": "id"
                     },
                     "to": {
                         "table": "submissions",
-                        "field": "task_id"
+                        "field": "user_id"
                     }
                 }
             },
             'where': [
                 {
-                    "field": 'tasks.activity_id',
-                    'op': 'e',
-                    'val': store.state.consts.identificationActivity
+                    "field": 'submissions.task_id',
+                    'op': 'i',
+                    'val': "(select id from tasks where tasks.activity_id='"+store.state.consts.identificationActivity+"')",
+                    'type': 'sql'
                 }
             ]
         };
         store.dispatch('c3s/submission/getSubmissions', [allSubmissionsQuery, 99999]).then(res => {
 
-            //console.log('total user and submission count returned');
-
             let allUsersCount = 0;
             let allSubmissionsCount = 0;
             for (let i = 0; i < res.body.length; i++) {
                 allUsersCount++;
-                allSubmissionsCount += res.body[i].count;
+                allSubmissionsCount += res.body[i].subs;
             }
             commit('SET_TOTAL_USER_COUNT', allUsersCount);
             commit('SET_TOTAL_SUBMISSION_COUNT', allSubmissionsCount);
@@ -98,8 +98,6 @@ const actions = {
     },
 
     updateMySubmissionCount({state, commit, rootState}) {
-
-        console.log('update my submissions');
 
         const submissionCountQuery = {
             "select": {
@@ -115,6 +113,13 @@ const actions = {
                     "field": 'submissions.user_id',
                     'op': 'e',
                     'val': store.state.c3s.user.currentUser.id
+                },
+                {
+                    "field": 'submissions.task_id',
+                    'op': 'i',
+                    'val': "(select id from tasks where tasks.activity_id='"+store.state.consts.identificationActivity+"')",
+                    'type': 'sql',
+                    "join": "a"
                 }
             ]
         };
@@ -125,6 +130,7 @@ const actions = {
         });
 
     },
+
     increaseMySubmissionCount({state, commit, rootState}) {
         commit('INCREASE_MY_SUBMISSION_COUNT' );
     }
