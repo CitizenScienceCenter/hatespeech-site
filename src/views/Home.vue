@@ -49,9 +49,15 @@
       </div>
     </app-cover>
 
-
-    <section-stats color="greyish" :userCount="totalUserCount" :submissionCount="totalSubmissionCount" :taskCount="totalTaskCount" ></section-stats>
-
+    <app-content-section color="greyish" class="content-section-condensed">
+      <div class="content-wrapper">
+        <sub-section-stats
+                :userCount="totalUserCount"
+                :submissionCount="totalSubmissionCount"
+                :taskCount="totalTaskCount" >
+        </sub-section-stats>
+      </div>
+    </app-content-section>
 
     <app-content-section>
       <div class="content-wrapper">
@@ -153,13 +159,13 @@ import Footer from '@/components/shared/Footer.vue';
 import SectionNewsletterSignup from "@/components/shared/SectionNewsletterSignup";
 import SectionSDG from "../components/shared/SectionSDG";
 import SectionFeedback from "../components/shared/SectionFeedback";
-import SectionStats from "../components/shared/SectionStats";
+import SubSectionStats from "../components/shared/SubSectionStats";
 
 
 export default {
   name: 'Home',
   components: {
-      SectionStats,
+    SubSectionStats,
       SectionFeedback,
       SectionSDG,
       SectionNewsletterSignup,
