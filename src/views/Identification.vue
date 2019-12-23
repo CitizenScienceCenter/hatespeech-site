@@ -600,7 +600,8 @@ export default {
           hasSubmissionAlready: false,
 
           taskLoaded: false,
-          loadTryCounter: 0
+          loadTryCounter: 0,
+          index: 0
       }
   },
   computed: {
@@ -686,7 +687,7 @@ export default {
 
           let taskQuery;
           if( !this.taskId ) {
-            this.$store.dispatch('c3s/project/getProjectTask', {pid: this.activityId, random: false, index: 0}).then(t => this.showTask(t))    
+            this.$store.dispatch('c3s/project/getProjectTask', {pid: this.activityId, random: false, index: this.index++}).then(t => this.showTask(t))    
           }
           else {
             this.$store.dispatch('c3s/task/getTask', this.taskId).then(t => this.showTask(t))    
