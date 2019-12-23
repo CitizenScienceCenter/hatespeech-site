@@ -9,13 +9,16 @@ import c3s from 'vuex-c3s';
 import Meta from 'vue-meta';
 import SimpleAnalytics from "simple-analytics-vue";
 
-
-let swaggerURL = 'https://api.citizenscience.ch/api/v2/swagger.json';
-//let swaggerURL = 'http://localhost:8080/api/v2/swagger.json';
-
+const apiURL = 'http://localhost:9000/v3/openapi.json'
+const server = 'http://localhost:9000/v3/'
+console.log(apiURL, server)
+Vue.use(c3s.plugin, {
+   store,
+   apiURL,
+   server
+})
 Vue.config.productionTip = false;
 
-Vue.use(c3s.plugin, { store, swaggerURL});
 Vue.use(VueRouter);
 Vue.use(Vuex);
 Vue.use(Meta);
