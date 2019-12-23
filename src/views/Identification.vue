@@ -650,9 +650,7 @@ export default {
       this.$store.dispatch('stats/updateTotalUserAndSubmissionCount');
       this.$store.dispatch('stats/updateMySubmissionCount');
 
-      this.$store.dispatch("c3s/activity/getActivity", [this.activityId, false]).then(activity => {
-
-          console.log('activity loaded');
+      this.$store.dispatch("c3s/project/getProject", this.activityId).then(proj => {
 
           // load task with or without id
           if( this.$route.params.id ) {
@@ -662,14 +660,12 @@ export default {
                   this.$router.replace('/identification');
                   this.taskId = null;
                   this.loadTask();
-              }
-              else {
+              } else {
                   //console.log('load task from id');
                   this.taskId = this.$route.params.id;
                   this.loadTask();
               }
-          }
-          else {
+          } else {
               this.taskId = null;
               //console.log('load without id');
               this.loadTask();
@@ -690,104 +686,38 @@ export default {
 
           let taskQuery;
           if( !this.taskId ) {
-              // without id
-              console.log('load one without id');
-              taskQuery = {
-                  'select': {
-                      'fields': [
-                          '*'
-                      ],
-                      'tables': [
-                          'tasks TABLESAMPLE SYSTEM_ROWS(1)'
-                      ],
-                      /*
-                      'orderBy': {
-                          'random()': ''
-                      }
-                      */
-                  },
-                  'where': [
-                      {
-                          "field": 'tasks.activity_id',
-                          'op': 'e',
-                          'val': this.activityId
-                      },
-                      {
-                          'field': 'tasks.id',
-                          'op': 'ni',
-                          'val': "(SELECT task_id FROM submissions WHERE submissions.task_id = tasks.id AND user_id = '" + this.currentUser.id + "')",
-                          'join': 'a',
-                          'type': 'sql'
-                      }/*,
-                    {
-                        'field': 'tasks.info ->> \'difficulty\'',
-                        'op': 'e',
-                        'val': this.difficulty.toString(),
-                        'join': 'a'
-                    }*/
-                  ]
-              };
-
+            this.$store.dispatch('c3s/project/getProjectTask', {pid: this.activityId, random: false, index: 0}).then(t => this.showTask(t))    
           }
           else {
-              // with id
-              console.log('with id');
-              taskQuery = {
-                  'select': {
-                      'fields': [
-                          '*'
-                      ],
-                      'tables': [
-                          'tasks'
-                      ]
-                  },
-                  'where': [
-                      {
-                          "field": 'id',
-                          'op': 'e',
-                          'val': this.taskId
-                      }
-                  ]
-              };
+            this.$store.dispatch('c3s/task/getTask', this.taskId).then(t => this.showTask(t))    
 
           }
 
-          this.$store.dispatch('c3s/task/getTasks', [taskQuery, 1]).then(tasks => {
+      },
+      showTask(tasks) {
+        console.dir(tasks)
+        this.$store.commit('c3s/task/SET_TASKS', tasks.body.data)
+        if ( this.tasks[0] ) {
+          console.log( 'task loaded');
+          if( navigator.userAgent !== 'ReactSnap' ) {
+              this.$router.replace('/identification/' + this.tasks[0].id);
+          }
+          this.taskLoaded = true;
+          this.loadTryCounter = 0;
+          this.taskId = undefined;
 
-              if ( this.tasks[0] ) {
-
-                  console.log( 'task loaded');
-                  if( navigator.userAgent !== 'ReactSnap' ) {
-                      this.$router.replace('/identification/' + this.tasks[0].id);
-                  }
-
-
-                  this.taskLoaded = true;
-                  this.loadTryCounter = 0;
-                  this.taskId = undefined;
-
-              }
-
-              else {
-
-                  console.log('load failed');
-                  if( this.loadTryCounter < 5 ) {
-                      this.loadTryCounter++;
-                      console.log('try again');
-                      this.loadTask();
-                  }
-                  else {
-                      console.log('failed to load 5 times');
-                      this.loadTryCounter = 0;
-                      this.$router.push('/');
-                  }
-
-
-              }
-
-
-          });
-
+        } else {
+          console.log('load failed');
+          if( this.loadTryCounter < 5 ) {
+              this.loadTryCounter++;
+              console.log('try again');
+              this.loadTask();
+          } else {
+              console.log('failed to load 5 times');
+              this.loadTryCounter = 0;
+              this.$router.push('/');
+          }
+        }
       },
       next() {
           console.log('next');
