@@ -854,8 +854,8 @@ export default {
         this.$store
           .dispatch("c3s/project/getProjectTask", {
             pid: this.activityId,
-            random: false,
-            index: this.index++
+            random: true,
+            index: -1
           })
           .then(t => this.showTask(t));
       } else {
@@ -865,7 +865,6 @@ export default {
       }
     },
     showTask(tasks) {
-      console.dir(tasks);
       this.$store.commit("c3s/task/SET_TASKS", tasks.body.data);
       if (this.tasks[0]) {
         console.log("task loaded");
