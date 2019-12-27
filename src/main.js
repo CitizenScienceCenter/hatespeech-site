@@ -9,9 +9,10 @@ import c3s from 'vuex-c3s';
 import Meta from 'vue-meta';
 import SimpleAnalytics from "simple-analytics-vue";
 
-const apiURL = 'http://localhost:9000/v3/openapi.json'
-const server = 'http://localhost:9000/v3/'
-console.log(apiURL, server)
+// const apiURL = 'http://localhost:9000/v3/openapi.json'
+// const server = 'http://localhost:9000/v3/'
+const apiURL = 'https://staging.citizenscience.ch/v3/openapi.json'
+const server = 'https://staging.citizenscience.ch/v3/'
 Vue.use(c3s.plugin, {
    store,
    apiURL,
