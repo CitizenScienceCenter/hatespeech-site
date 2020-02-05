@@ -1,19 +1,13 @@
 {
   "name": "hatespeech",
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build"
-    }
-  ],
   "routes": [
     {
       "src": "/(js|css|img)/.*",
       "headers": { "cache-control": "max-age=31536000, immutable" }
     },
     { "handle": "filesystem" },
-    { "src": "./dist/*", "dest": "/" }
+    { "src": "/.*", "dest": "/index.html" }
   ],
   "alias": "hatespeech.citizenscience.ch"
 }
