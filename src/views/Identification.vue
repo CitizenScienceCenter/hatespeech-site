@@ -42,6 +42,7 @@
 
                     <div class="form-field form-field-block form-field-language-checkbox">
                       <div class="options">
+                        <!--
                         <label :class="{disabled: wrongLanguage || !taskLoaded }">
                           <input type="checkbox" v-model="noHateSpeech">
                           <div class="checkbox">
@@ -51,6 +52,7 @@
                           </div>
                           <span>Keine Hassausdrücke gefunden</span>
                         </label>
+                        -->
                         <label :class="{disabled: noHateSpeech || !taskLoaded }">
                             <input type="checkbox" v-model="wrongLanguage">
                             <div class="checkbox">
@@ -207,8 +209,9 @@
         <div class="row row-wrapping row-reverse-large scroll-effect scroll-effect-delayed-2">
           <div class="col col-large-6 col-wrapping">
             <div class="button-group right-aligned">
-              <button class="button button-secondary" @click="next" :disabled="!taskLoaded">Überspringen</button>
               <button class="button button-primary" @click="submit" :disabled="!taskLoaded || !complete && !wrongLanguage && !noHateSpeech">Antworten</button>
+              <button class="button button-secondary" @click="submitNoHatespeech" :disabled="!taskLoaded">Keine Hassausdrücke</button>
+              <button class="button button-secondary" @click="next" :disabled="!taskLoaded">Überspringen</button>
             </div>
           </div>
           <div class="col col-large-6 col-wrapping">
@@ -793,6 +796,10 @@ export default {
           console.log('next');
 
           this.loadTask();
+      },
+      submitNoHatespeech() {
+          this.noHateSpeech = true;
+          this.submit();
       },
       submit() {
           console.log('submit');
