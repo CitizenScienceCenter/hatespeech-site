@@ -28,7 +28,7 @@
 <template>
   <div>
 
-    <app-cover imageUrl="/img/cover.jpg" goal="5">
+    <app-cover imageUrl="/img/cover.jpg" goal="5" logoUrl="/img/logo-fnsnf.svg">
       <div class="row row-centered">
         <div class="col col-large-8">
           <h2 class="cover-heading scroll-effect" v-html="$t('cover-heading')"></h2>
