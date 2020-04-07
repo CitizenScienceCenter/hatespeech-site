@@ -20,7 +20,49 @@
   "sources-text": "Die WhatsApp Gespräche, die hier Verwendung finden, wurden uns 2014 von der Schweizer Bevölkerung zur Verfügung gestellt.",
   "sources-button": "Mehr erfahren"
 
-  }
+},
+
+"fr": {
+
+"cover-heading": "Expressions de haine séxospécifique",
+"cover-subheading": "Identifier et classer des expressions de haine spécifique au sexe à l’aide de textes WhatsApp",
+"cover-button-primary": "Identification",
+"cover-button-secondary": "Le Projet",
+
+"intro-heading": "De quoi s’agit-il ?",
+"intro-text": "Les expressions de haine dans les nouveaux médias sont un sujet en vogue. Mais qu’en est-il de la correspondance privée ? Nous aimerions le savoir sur la base des textes WhatsApp qui ont été mis à notre disposition par la population.",
+"intro-button": "En savoir plus",
+
+"identification-heading": "Nous avons besoin de votre aide !",
+"identification-text": "Pour atteindre nos objectifs, nous avons besoin de votre aide. La première étape (identification) consiste à examiner autant de textes que possible et à rechercher d'éventuelles expressions de haine spécifique au sexe. Plus les personnes qui nous aident seront nombreuses, plus nous arriverons rapidement à résultats fructueux. Pour que les 750 000 messages ne soient pas tous lus, nous identifierons ensuite les phrases de haine trouvées dans les messages qui n'ont pas encore été lus, sur la base de vos trouvailles. Ainsi, nous devrions obtenir des résultats satisfaisants.",
+"identification-button": "Identification",
+
+"sources-heading": "D’où proviennent les textes ?",
+"sources-text": "Les conversations WhatsApp utilisées ici ont été mises à notre disposition par la population suisse en 2014.",
+"sources-button": "En savoir plus"
+
+},
+
+"it": {
+
+"cover-heading": "Espressioni di odio<br>basate sul genere",
+"cover-subheading": "Identificare e classificare attraverso messaggi di WhatsApp",
+"cover-button-primary": "Identificazione",
+"cover-button-secondary": "Il progetto",
+
+"intro-heading": "Di cosa si tratta?",
+"intro-text": "Al momento le espressioni di odio nei nuovi media sono sulla bocca di tutte le persone, ma sono anche usate nella corrispondenza privata? È ciò che vorremmo scoprire attraverso dei messaggi di WhatsApp che ci sono stati messi a disposizione dalla popolazione.",
+"intro-button": "Scoprire di più",
+
+"identification-heading": "È richiesto il Suo aiuto",
+"identification-text": "Per raggiungere i nostri scopi La preghiamo della sua collaborazione. In una prima fase (identificazione) si tratta di esaminare il maggior numero di testi per quanto possibile e di cercare delle possibili espressioni di odio basate sul genere. Più numerose saranno le persone ad aiutarci e più in fretta la ricerca porterà a dei risultati. Affinché non tutti i 750'000 messaggi debbano essere letti, in una seconda fase cercheremo le espressioni di odio trovate anche nei messaggi non ancora letti. Così dovremmo arrivare a un numero considerevole di prove.",
+"identification-button": "Identificazione",
+
+"sources-heading": "Da dove provengono i testi?",
+"sources-text": "Le conversazioni di WhatsApp che sono oggetto di questa analisi ci sono state messe a disposizione dalla popolazione svizzera nel 2014.",
+"sources-button": "Scoprire di più"
+
+}
 
 }
 </i18n>

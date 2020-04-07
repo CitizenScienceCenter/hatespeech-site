@@ -1,19 +1,8 @@
-<i18n>
-  {
-  "en": {
-  "site-title": "Hate Speech | Citizen Science Center Zurich",
-  "site-description": "Geschlechtsspezifische Hassausdrücke"
-  },
-  "de": {
-  "site-title": "Hate Speech | Citizen Science Center Zurich",
-  "site-description": "Geschlechtsspezifische Hassausdrücke"
-  }
-  }
-</i18n>
+
 
 <template>
   <div id="app">
-    <app-header project-name="Hate<br/>Speech" :languages="['de']" beta></app-header>
+    <app-header project-name="Hate<br/>Speech" :languages="['de','fr','it']" beta></app-header>
     <div class="content-area">
       <router-view></router-view>
     </div>

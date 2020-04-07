@@ -70,6 +70,86 @@ export const i18n = new VueI18n({
           'navigation-profile': {
               'link': 'Profil'
           }
+      },
+      'fr': {
+
+          "site-name": "Hate Speech",
+          "site-title": "Hate Speech | Citizen Science Center Zurich",
+          "site-description": "Expressions de haine séxospécifique",
+
+          'navigation-homepage': {
+              'link': 'Home'
+          },
+          'navigation-identification': {
+              'link': 'Identification'
+          },
+          'navigation-forum': {
+              'link': 'Forum'
+          },
+          'navigation-about': {
+              'link': 'Le Project'
+          },
+          'navigation-sources': {
+              'link': 'Sources de texte'
+          },
+          'navigation-terms': {
+              'link': 'Privacy Policy & Terms of Use'
+          },
+          'navigation-login': {
+              'link': 'Login'
+          },
+          'navigation-register': {
+              'link': "S'inscrire"
+          },
+          'navigation-logout': {
+              'link': 'Logout'
+          },
+          'navigation-reset': {
+              'link': "Réinitialiser le mot de passe"
+          },
+          'navigation-profile': {
+              'link': 'Profil'
+          }
+      },
+      'it': {
+
+          "site-name": "Hate Speech",
+          "site-title": "Hate Speech | Citizen Science Center Zurich",
+          "site-description": "Espressioni di odio basate sul genere",
+
+          'navigation-homepage': {
+              'link': 'Home'
+          },
+          'navigation-identification': {
+              'link': 'Identificazione'
+          },
+          'navigation-forum': {
+              'link': 'Forum'
+          },
+          'navigation-about': {
+              'link': 'Il progetto'
+          },
+          'navigation-sources': {
+              'link': 'Fonti di testo'
+          },
+          'navigation-terms': {
+              'link': 'Privacy Policy & Terms of Use'
+          },
+          'navigation-login': {
+              'link': 'Login'
+          },
+          'navigation-register': {
+              'link': "Registrati"
+          },
+          'navigation-logout': {
+              'link': 'Logout'
+          },
+          'navigation-reset': {
+              'link': "Reimpostazione della password"
+          },
+          'navigation-profile': {
+              'link': 'Profil'
+          }
       }
   }
 

@@ -1,17 +1,251 @@
 <i18n>
 {
 
-  "en": {
+"de": {
 
-  "page-title": "Identification"
+"page-title": "Identifikation",
 
-  },
+"identification-heading": "Schritt 1: Identifikation",
+"identification-text": "Selektieren Sie in dieser WhatsApp Nachricht, falls vorhanden, jeweils einen geschlechtsspezifischen Hass-Ausdruck und fügen ihn zur Liste hinzu.",
+"identification-help": "Hilfe anzeigen",
 
-  "de": {
+"wrong-language": "Text ist nicht deutsch",
+"wrong-language-bubble": "Unter Deutsch verstehen wir auch Nachrichten mit vielen Schreib- und Tippfehlern sowie Schweizerdeutsche Nachrichten. Tipp: Falls die Nachricht unverständlich erscheint, versuchen Sie, sie laut zu lesen.",
 
-  "page-title": "Identifikation"
+"button-add": "Hinzufügen",
 
-  }
+"classification-heading": "Schritt 2: Klassifikation",
+"classification-text": "Bitte klassifizieren Sie die ausgewählten Hass-Ausdrücke:",
+"classification-none": "Noch keine Ausdrücke hinzugefügt.",
+
+"placeholder-select": "Bitte wählen ...",
+
+"label-origin": "Wortherkunft",
+"origin-option-1": "Anatomie",
+"origin-option-2": "Geschlechtszugehörigkeit",
+"origin-option-3": "Sexuelle Ausrichtung",
+"origin-option-4": "Andere",
+"origin-bubble": "Mögliche Kategorien sind Körperteile (z.B. <i>Schwanz</i>), Tätigkeiten (z.B. <i>Hure</i> oder <i>Wichser</i>) oder Geschlechtszugehörigkeit (z.B. <i>Weib</i>) oder die sexuelle Ausrichtung, (z.B. <i>Homo</i>).",
+
+"label-sex": "Geschlecht",
+"label-sex-brackets": "Adressat/in",
+"sex-option-1": "Mann",
+"sex-option-2": "Frau",
+"sex-option-3": "Divers",
+"sex-option-4": "Unbekannt",
+"sex-bubble": "Geschlecht der Person, die mit dem Hass-Ausdruck bezeichnet wird. Bitte auswählen: Mann, Frau, Divers (Menschen, die sich den Geschlechtern Mann und Frau nicht zuordnen möchten), Unklar (das Geschlecht geht aus dem Text nicht klar hervor)",
+
+"label-sex-orientation": "Sex. Ausrichtung",
+"label-sex-orientation-brackets": "Adressat/in",
+"sex-orientation-option-1": "Hetereosexuell",
+"sex-orientation-option-2": "Homosexuell",
+"sex-orientation-option-3": "Bisexuell",
+"sex-orientation-option-4": "Unklar",
+"sex-orientation-bubble": "Sexuelle Ausrichtung des/r Adressanten/in. Möglich sind hetero- homo-, bi- und asexuell. Die Option «Unklar» wird dann angewendet, wenn das Geschlecht aus dem Text in der Nachricht nicht klar hervorgeht.",
+
+"button-answer": "Antworten",
+"button-nohatespeech": "Keine Hassausdrücke",
+"button-skip": "Überspringen",
+
+"progress-label": "Fortschritt",
+"progress-of": "von",
+
+
+"wizard-step-1-heading": "Was sind geschlechtsspezifische Hass-Ausdrücke?",
+"wizard-step-1-text": "Geschlechtsspezifische Hass-Ausdrücke sind Ausdrücke, die",
+"wizard-step-1-bullet-1": "sich auf Menschen beziehen.",
+"wizard-step-1-bullet-2": "von Ihnen ohne den Zusammenhang zu beachten als negativ / beleidigend / verletzend / diskriminierend klassifiziert werden.",
+"wizard-step-1-bullet-3": "einen Bezug zum Geschlecht oder der sexuellen Orientierung des Menschen haben.",
+"wizard-step-1-examples-heading": "Beispiele:",
+"wizard-step-1-examples-specific": "Geschlechtsspezifisch:",
+"wizard-step-1-examples-specific-list": "<li><b><i>Schwanz: </i></b>Kann nur für einen Mann verwendet werden.</li><li><b><i>Weib: </i></b>Kann nur für Frauen verwendet werden.</li><li><b><i>Homo: </i></b>Hat einen direkten Bezug zur sexuellen Orientierung.</li>",
+"wizard-step-1-examples-nonsp": "<b>Nicht</b> geschlechtsspezifisch:",
+"wizard-step-1-examples-nonsp-list": "<li><b><i>Arschloch: </i></b>Ist bei allen Geschlechtern gleich.</li><li><b><i>Idiot, Trottel, Sauhund: </i></b>Hat keinen Bezug zum Geschlecht oder der sexuellen Ausrichtung.</li>",
+
+"wizard-step-2-heading": "Selektion von Ausdrücken",
+"wizard-step-2-text-1": "Wählen Sie mit Ihrer Maus Text-Teile aus, die als geschlechtsspezifische Hass-Ausdrücke erkennbar sind.",
+"wizard-step-2-bullet-1": "<b>Es spielt keine Rolle, ob die Ausdrücke abwertend oder nicht abwertend gemeint sind.</b>",
+"wizard-step-2-bullet-2": "<b>Es gibt viele Mitteilungen, in denen KEINE Hassausdrücke vorkommen. Setzen Sie dann bitte ein Häkchen bei <i>keine Hassausdrücke gefunden</i></b>",
+"wizard-step-2-text-2": "<b>Ausdrücke bestehen häufig aus mehr als einem Wort</b>, also z.B. einem Artikelwort (<i>der</i>, <i>die</i>, <i>das</i>, <i>ein</i>, <i>eine</i>, <i>dieser</i>, <i>diese</i>, etc.), einem Nomen (<i>Mann</i>, <i>Frau</i>, <i>Typ</i>, <i>Kerl</i>, <i>Homo</i>, <i>Lesbe</i>, <i>Ekel</i>, etc.) und weiteren Wörtern dazwischen (<i>huere</i>, <i>netter</i>, <i>blöde</i>, <i>gut ausgebildete</i>).",
+"wizard-step-2-text-3": "<b>Ausgewählt werden sollte bitte jeweils der ganze Ausdruck.</b>",
+"wizard-step-2-examples-heading": "Beispiele:",
+"wizard-step-2-examples-list": "<li><b><i>Der doofe Schwanz</i></b></li><li><b><i>Der gut ausgebildete Homo</i></b></li><li><b><i>Lesbe</i></b></li>",
+
+"wizard-step-3-heading": "Kategorisierung",
+"wizard-step-3-text": "Weiter bitten wir Sie, die von Ihnen ausgewählten Ausdrücke in Bezug auf <b>drei Kategorien</b> zu beschreiben.",
+"wizard-step-3-list-1-title": "<b>Wortherkunft</b>",
+"wizard-step-3-list-1": "<li><b>Anatomie </b>(Körperteile, z.B. <i>Schwanz</i>)</li><li><b>Geschlechtszugehörigkeit </b>(z.B. <i>Weib</i>)</li><li><b>Sexuelle Ausrichtung </b>(z.B. <i>Homo</i>)</li><li><b>Andere </b>(wenn keine dieser Optionen passt)</li>",
+"wizard-step-3-list-2-title": "<b>Geschlecht </b>(der/des Adressaten/in):",
+"wizard-step-3-list-2": "<li><b>Mann</b></li><li><b>Frau</b></li><li><b>Divers </b>(für Menschen, die sich den Geschlechtern Mann und Frau nicht zuordnen)</li><li><b>Unbekannt </b>(nicht erkennbar)</li>",
+"wizard-step-3-list-3-title": "<b>Sexuelle Ausrichtung </b>(der/des Adressaten/in):",
+"wizard-step-3-list-3": "<li><b>Heterosexuell</b></li><li><b>Homosexuell</b></li><li><b>Bisexuell</b></li><li><b>Asexuell</b></li>"
+
+},
+
+"fr": {
+
+"page-title": "Identification",
+
+"identification-heading": "Etape 1 : Sélection",
+"identification-text": "Dans ce message WhatsApp, sélectionnez une expression de haine sexospécifique et ajoutez-la à la liste.",
+"identification-help": "Afficher de l’aide",
+
+"wrong-language": "Le texte n’est pas français",
+"wrong-language-bubble": "Par français, nous entendons également les messages avec de nombreuses fautes d’orthographe et de frappe ainsi que les abréviations diverses ou contenant des dialectes. Un conseil : en cas de doute, essayez de lire le texte à haute voix.",
+
+"button-add": "Ajouter",
+
+"classification-heading": "Étape 2 : Classification",
+"classification-text": "Veuillez classer les expressions de haine sélectionnées :",
+"classification-none": "Aucune expression n'a été ajoutée.",
+
+"placeholder-select": "Choisir ...",
+
+"label-origin": "Origine du mot",
+"origin-option-1": "Parties du corps",
+"origin-option-2": "Sexe",
+"origin-option-3": "Orientation sexuelle",
+"origin-option-4": "Autres",
+"origin-bubble": "Les catégories possibles sont les parties du corps (par exemple <i>la queue</i>), les activités (par exemple <i>la putain</i> ou <i>le branleur</i>) ou le sexe (par exemple <i>la gonzesse</i>) ou l'orientation sexuelle (par exemple <i>la tarlouze</i>).",
+
+"label-sex": "Sexe",
+"label-sex-brackets": "du destinataire",
+"sex-option-1": "Homme",
+"sex-option-2": "Femme",
+"sex-option-3": "Divers",
+"sex-option-4": "non reconnaissable",
+"sex-bubble": "Le sexe de la personne à qui l'expression de haine est destinée. Veuillez sélectionner : homme, femme, divers (pour les personnes dont l’identité de genre ne s’inscrit pas dans la norme binaire), non reconnaissable (le sexe du destinataire ne peut pas être connu grâce au message)",
+
+"label-sex-orientation": "Orientation sexuelle",
+"label-sex-orientation-brackets": "du destinataire",
+"sex-orientation-option-1": "Hétérosexuel",
+"sex-orientation-option-2": "Homosexuel",
+"sex-orientation-option-3": "Bisexuel ou asexué",
+"sex-orientation-option-4": "Pas clair",
+"sex-orientation-bubble": "Orientation sexuelle du destinataire. Vous pouvez sélectionner les catégories hétérosexuel, homosexuel, bisexuel ou asexué. L'option « Pas clair » est utilisée si l’orientation sexuelle du destinataire n’est pas perceptible à travers le message.",
+
+"button-answer": "Répondre",
+"button-nohatespeech": "Aucune expression de haine",
+"button-skip": "Sauter",
+
+"progress-label": "Progrès",
+"progress-of": "sur",
+
+
+"wizard-step-1-heading": "Les expressions de haine sexospécifique, qu’est ce que c’est ?",
+"wizard-step-1-text": "Les expressions de haine sexospécifique désignent les expressions qui :",
+"wizard-step-1-bullet-1": "désignent des humains,",
+"wizard-step-1-bullet-2": "sont perçues par vous, en tant que Citizen Scientist, comme négatives, insultantes, blessantes ou discriminatoires,",
+"wizard-step-1-bullet-3": "ont un rapport au sexe ou à la sexualité.",
+"wizard-step-1-examples-heading": "Exemples :",
+"wizard-step-1-examples-specific": "Expressions sexospécifiques :",
+"wizard-step-1-examples-specific-list": "<li><b><i>gonzesse : </i></b>n’est employé que pour une femme.</li><li><b><i>tapette : </i></b>a un rapport direct à la sexualité (homosexuelle).</li>",
+"wizard-step-1-examples-nonsp": "Expressions <b>non</b> sexospécifiques :",
+"wizard-step-1-examples-nonsp-list": "<li><b><i>trou du cul : </i></b>n’est pas spécifique au sexe.</li><li><b><i>idiot : </i></b>aucun rapport au sexe ou à l’orientation sexuelle</li>",
+
+"wizard-step-2-heading": "Sélection d’expressions",
+"wizard-step-2-text-1": "Sélectionnez des morceaux de texte reconnaissables comme des expressions de haine sexospécifique.",
+"wizard-step-2-bullet-1": "<b>Peu importe que les termes soient dérogatoires ou non dérogatoires.</b>",
+"wizard-step-2-bullet-2": "",
+"wizard-step-2-text-2": "<b>Les expressions se composent souvent de plus d'un mot</b>, par ex. un mot d'article (<i>le</i>, <i>le</i>, <i>le</i>, <i>un</i>, <i>ceci</i>, <i>ceci</i>, etc.), un nom (<i>homme</i>, <i>femme</i>, <i>type</i>, <i>gars</i>, <i>homo</i>, <i>lesbienne</i>, etc.) et d'autres mots entre les deux (<i>agréable</i>, <i>stupide</i>, <i>bien éduqué</i>).",
+"wizard-step-2-text-3": "<b>Veuillez sélectionner toute l'expression, dans son intégralité.</b>",
+"wizard-step-2-examples-heading": "Exemples :",
+"wizard-step-2-examples-list": "<li><b><i>la tarlouze bien éduquée</i></b></li><li><b><i>la belle salope</i></b></li>",
+
+"wizard-step-3-heading": "Catégorisation",
+"wizard-step-3-text": "Dans un deuxième temps, nous vous demandons de décrire les expressions que vous avez sélectionnées par rapport à <b>trois catégories</b>.",
+"wizard-step-3-list-1-title": "<b>Origine de l’expression :</b>",
+"wizard-step-3-list-1": "<li><b>anatomie </b>(parties du corps, par exemple <i>queue</i>)</li><li><b>sexe </b>(par exemple <i>gonzesse</i>)</li><li><b>orientation sexuelle </b>(par exemple <i>tarlouze</i>)</li><li><b>autre </b>(si aucune de ces options ne convient)</li>",
+"wizard-step-3-list-2-title": "<b>Sexe </b>(du destinataire) :",
+"wizard-step-3-list-2": "<li><b>homme</b></li><li><b>femme</b></li><li><b>autre </b>(pour les personnes dont l’identité de genre ne s’inscrit pas dans la norme binaire)</li><li><b>non reconnaissable </b></li>",
+"wizard-step-3-list-3-title": "<b>Orientation sexuelle </b>(du destinataire) :",
+"wizard-step-3-list-3": "<li><b>hétérosexuel</b></li><li><b>homosexuel</b></li><li><b>bisexuel</b></li><li><b>asexuel</b></li><li><b>pas clair</b></li>"
+
+
+},
+
+"it": {
+
+"page-title": "Identificazione",
+
+"identification-heading": "Fase 1: Selezione",
+"identification-text": "Selezioni in questo messaggio di WhatsApp un’espressione di odio basata sul genere e la aggiunga alla lista.",
+"identification-help": "Mostrare aiuto",
+
+"wrong-language": "Il testo non è in italiano",
+"wrong-language-bubble": "Sotto italiano comprendiamo anche messaggi con molti errori grammaticali e di battitura così come messaggi in dialetto. Suggerimento: cerchi, nel dubbio, di leggere il testo ad alta voce.",
+
+"button-add": "Aggiungere",
+
+"classification-heading": "Fase 2: Classificazione",
+"classification-text": "Per favore classifichi le espressioni di odio selezionate:",
+"classification-none": "Non ancora aggiunta alcuna espressione.",
+
+"placeholder-select": "Scegli ...",
+
+"label-origin": "Origine della parola",
+"origin-option-1": "Parti del corpo",
+"origin-option-2": "Appartenenza a genere",
+"origin-option-3": "Orientamento sessuale",
+"origin-option-4": "Altro",
+"origin-bubble": "Possibili categorie sono le parti del corpo (p. es. <i>cazzo</i>), le attività (p. es. <i>puttana</i> o <i>segaiolo</i>), l’appartenenza a un genere (p. es. <i>donnetta</i>) oppure l’orientamento sessuale (p. es. <i>frocio</i>)",
+
+"label-sex": "Sesso",
+"label-sex-brackets": "del destinatario / della destinataria",
+"sex-option-1": "Uomo",
+"sex-option-2": "Donna",
+"sex-option-3": "Diverso",
+"sex-option-4": "Sconosciuto",
+"sex-bubble": "Il sesso della persona che è etichettata con l’espressione di odio. Per favore scelga: uomo, donna, diverso (persone che non desiderano associarsi ai sessi uomo e donna), sconosciuto (il sesso non è chiaramente riconoscibile dal testo).",
+
+"label-sex-orientation": "Orientamento sessuale",
+"label-sex-orientation-brackets": "del destinatario / della destinataria",
+"sex-orientation-option-1": "Eterosessuale",
+"sex-orientation-option-2": "Homosessuale",
+"sex-orientation-option-3": "Bi- e asessuale",
+"sex-orientation-option-4": "non chiaro",
+"sex-orientation-bubble": "L’orientamento sessuale del destinatario / della destinataria. Possibili sono etero-, homo-, bi- e asessuale. L’opzione “non chiaro” è usata quando l’orientamento sessuale non è chiaramente riconoscibile dal messaggio.",
+
+"button-answer": "Rispondere",
+"button-nohatespeech": "Nessuna espressione di odio",
+"button-skip": "Saltare",
+
+"progress-label": "Progresso",
+"progress-of": "di",
+
+
+"wizard-step-1-heading": "Cosa sono le espressioni di odio basate sul genere?",
+"wizard-step-1-text": "Le espressioni di odio basate sul genere indicano espressioni che:",
+"wizard-step-1-bullet-1": "si riferiscono a persone.",
+"wizard-step-1-bullet-2": "sono classificate da Lei in qualità di citizen scientist come negative / ingiuriose / offensive / discriminatorie senza tenere conto del contesto.",
+"wizard-step-1-bullet-3": "hanno un riferimento al genere o all’orientamento sessuale della persona.",
+"wizard-step-1-examples-heading": "Esempi:",
+"wizard-step-1-examples-specific": "Espressioni basate sul genere:",
+"wizard-step-1-examples-specific-list": "<li><b><i>Senza palle: </i></b>è usato in riferimento a un uomo.</li><li><b><i>Puttana: </i></b>è usato in riferimento a una donna.</li><li><b><i>Frocio: </i></b>ha un riferimento diretto all’orientamento sessuale.</li>",
+"wizard-step-1-examples-nonsp": "Espressioni <b>non</b> basate sul genere:",
+"wizard-step-1-examples-nonsp-list": "<li><b><i>Stronzo/a: </i></b>è uguale per tutti i sessi.</li><li><b><i>Idiota, imbecille, carogna: </i></b>non hanno un riferimento al genere o all’orientamento sessuale.</li>",
+
+"wizard-step-2-heading": "Selezione delle espressioni",
+"wizard-step-2-text-1": "Scelga delle parti di testo riconoscibili come espressioni di odio basate sul genere.",
+"wizard-step-2-bullet-1": "<b>Non cambia se le espressioni sono intese in senso dispregiativo oppure no.</b>",
+"wizard-step-2-bullet-2": "",
+"wizard-step-2-text-2": "<b>Le espressioni consistono spesso in più di una parola</b>, quindi p. es. in un articolo (<i>il</i>, <i>lo</i>, <i>la</i>, <i>gli</i>, <i>un</i> ecc.), un sostantivo (<i>uomo</i>, <i>donna</i>, <i>tipo</i>, <i>lesbica</i>, <i>schifo</i> ecc.) e ulteriori parole in mezzo (<i>gentile</i>, <i>stupida</i>, <i>sporco</i> ecc.)",
+"wizard-step-2-text-3": "<b>Per favore, dovrebbe essere scelta l’intera espressione ogni volta.</b>",
+"wizard-step-2-examples-heading": "Esempi:",
+"wizard-step-2-examples-list": "<li><b><i>La stupida puttana</i></b></li><li><b><i>Quello sporco frocio</i></b></li><li><b><i>Lesbica</i></b></li>",
+
+"wizard-step-3-heading": "Classificazione",
+"wizard-step-3-text": "In una seconda fase La preghiamo di descrivere le espressioni da Lei scelte in relazione a <b>tre categorie</b>.",
+"wizard-step-3-list-1-title": "<b>Origine della parola:</b>",
+"wizard-step-3-list-1": "<li><b>Anatomia </b>(parti del corpo, p. es. <i>cazzo</i>)</li><li><b>Appartenenza a un genere </b>(p. es. <i>donnetta</i>)</li><li><b>Orientamento sessuale </b>(p. es. <i>frocio</i>)</li><li><b>Altro </b>(se nessuna di queste opzioni corrisponde)</li>",
+"wizard-step-3-list-2-title": "<b>Sesso </b>(del destinatario / della destinataria):",
+"wizard-step-3-list-2": "<li><b>Uomo</b></li><li><b>Donna</b></li><li><b>Diverso </b>(per persone che non desiderano associarsi ai sessi uomo e donna)</li><li><b>Sconosciuto </b>(non riconoscibile)</li>",
+"wizard-step-3-list-3-title": "<b>Orientamento sessuale </b>(del destinatario / della destinataria):",
+"wizard-step-3-list-3": "<li><b>Eterosessuale</b></li><li><b>Omosessuale</b></li><li><b>Bisessuale</b></li><li><b>Asessuale</b></li>"
+
+
+}
+
 
 }
 </i18n>
@@ -27,10 +261,10 @@
 
             <div class="col col-large-6 col-wrapping scroll-effect">
 
-              <h2 class="heading small centered left-aligned-large" id="projects">Schritt 1: Identifikation</h2>
+              <h2 class="heading small centered left-aligned-large" id="projects" v-html="$t('identification-heading')"></h2>
               <p>
-                Selektieren Sie in dieser WhatsApp Nachricht, falls vorhanden, jeweils einen geschlechtsspezifischen Hass-Ausdruck und fügen ihn zur Liste hinzu.<br>
-                <span class="small"><a href="#" @click.prevent="openWizard">Hilfe anzeigen</a></span>
+                {{ $t('identification-text') }}<br>
+                <span class="small"><a href="#" @click.prevent="openWizard">{{ $t('identification-help') }}</a></span>
               </p>
 
               <div>
@@ -60,13 +294,13 @@
                                 <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                               </svg>
                             </div>
-                            <span>Text ist nicht deutsch
+                            <span>{{ $t('wrong-language') }}
                               <inline-hover>
                                 <svg slot="display-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                   <path d="M504,256c0,137-111,248-248,248S8,393,8,256,119,8,256,8,504,119.08,504,256ZM262.65,90c-54.49,0-89.25,23-116.54,63.76A12,12,0,0,0,148.82,170l34.7,26.31a12,12,0,0,0,16.66-2.13c17.87-22.65,30.12-35.79,57.31-35.79,20.43,0,45.7,13.14,45.7,33,0,15-12.37,22.67-32.54,34C247.13,238.53,216,254.94,216,296v4a12,12,0,0,0,12,12h56a12,12,0,0,0,12-12v-1.33C296,270.2,379.19,269,379.19,192,379.19,134,319,90,262.65,90ZM256,338a46,46,0,1,0,46,46A46.05,46.05,0,0,0,256,338Z"/>
                                 </svg>
                                 <template slot="hover">
-                                  Unter Deutsch verstehen wir auch Nachrichten mit vielen Schreib- und Tippfehlern sowie Schweizerdeutsche Nachrichten. Tipp: Falls die Nachricht unverständlich erscheint, versuchen Sie, sie laut zu lesen.
+                                  {{ $t('wrong-language-bubble') }}
                                 </template>
                               </inline-hover>
                             </span>
@@ -79,7 +313,7 @@
 
                     <div class="add-button-group">
                       <div class="button-group right-aligned">
-                        <button class="button button-primary" :disabled="!selection" @click="select">Hinzufügen</button>
+                        <button class="button button-primary" :disabled="!selection" @click="select">{{ $t('button-add') }}</button>
                       </div>
                     </div>
 
@@ -94,14 +328,14 @@
 
               <div :class="{disabled:wrongLanguage || noHateSpeech}">
 
-                <h2 class="heading small centered left-aligned-large" id="projects">Schritt 2: Klassifikation</h2>
+                <h2 class="heading small centered left-aligned-large" id="projects">{{ $t('classification-heading') }}</h2>
                 <p>
-                  Bitte klassifizieren Sie die ausgewählten Hass-Ausdrücke:
+                  {{ $t('classification-text') }}
                 </p>
 
                 <transition name="no-item-fade">
                   <p class="no-items" v-if="selections.length == 0">
-                    Noch keine Ausdrücke hinzugefügt.
+                    {{ $t('classification-none') }}
                   </p>
                 </transition>
 
@@ -119,15 +353,15 @@
                     <div class="categories">
 
                       <div class="category">
-                        <label>Wortherkunft</label>
+                        <label>{{ $t('label-origin') }}</label>
                         <div class="form-field">
                           <div class="custom-select">
                             <select v-model="selection.origin" :class="{placeholder:!selection.origin}" @change="checkComplete">
-                              <option :value="undefined" disabled selected>Bitte wählen ...</option>
-                              <option value="anatomy">Anatomie</option>
-                              <option value="gender">Geschlechtszugehörigkeit</option>
-                              <option value="sexual-orientation">Sexuelle Ausrichtung</option>
-                              <option value="other">Andere</option>
+                              <option :value="undefined" disabled selected>{{ $t('placeholder-select') }}</option>
+                              <option value="anatomy">{{ $t('origin-option-1') }}</option>
+                              <option value="gender">{{ $t('origin-option-2') }}</option>
+                              <option value="sexual-orientation">{{ $t('origin-option-3') }}</option>
+                              <option value="other">{{ $t('origin-option-4') }}</option>
                             </select>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                               <path d="M127.3,192h257.3c17.8,0,26.7,21.5,14.1,34.1L270.1,354.8c-7.8,7.8-20.5,7.8-28.3,0L113.2,226.1 C100.6,213.5,109.5,192,127.3,192z"/>
@@ -139,21 +373,21 @@
                             <path d="M504,256c0,137-111,248-248,248S8,393,8,256,119,8,256,8,504,119.08,504,256ZM262.65,90c-54.49,0-89.25,23-116.54,63.76A12,12,0,0,0,148.82,170l34.7,26.31a12,12,0,0,0,16.66-2.13c17.87-22.65,30.12-35.79,57.31-35.79,20.43,0,45.7,13.14,45.7,33,0,15-12.37,22.67-32.54,34C247.13,238.53,216,254.94,216,296v4a12,12,0,0,0,12,12h56a12,12,0,0,0,12-12v-1.33C296,270.2,379.19,269,379.19,192,379.19,134,319,90,262.65,90ZM256,338a46,46,0,1,0,46,46A46.05,46.05,0,0,0,256,338Z"/>
                           </svg>
                           <template slot="hover">
-                            Mögliche Kategorien sind Körperteile (z.B. <i>Schwanz</i>), Tätigkeiten (z.B. <i>Hure</i> oder <i>Wichser</i>) oder Geschlechtszugehörigkeit (z.B. <i>Weib</i>) oder die sexuelle Ausrichtung, (z.B. <i>Homo</i>).
+                            <div v-html="$t('origin-bubble')"></div>
                           </template>
                         </inline-hover>
                       </div>
 
                       <div class="category">
-                        <label>Geschlecht <span class="regular">(Adressat/in)</span></label>
+                        <label>{{ $t('label-sex') }} <span class="regular">({{ $t('label-sex-brackets') }})</span></label>
                         <div class="form-field">
                           <div class="custom-select">
                             <select v-model="selection.gender" :class="{placeholder:!selection.gender}" @change="checkComplete">
-                              <option :value="undefined" disabled selected>Bitte wählen ...</option>
-                              <option value="man">Mann</option>
-                              <option value="woman">Frau</option>
-                              <option value="diverse">Divers</option>
-                              <option value="unknown">Unbekannt</option>
+                              <option :value="undefined" disabled selected>{{ $t('placeholder-select') }}</option>
+                              <option value="man">{{ $t('sex-option-1') }}</option>
+                              <option value="woman">{{ $t('sex-option-2') }}</option>
+                              <option value="diverse">{{ $t('sex-option-3') }}</option>
+                              <option value="unknown">{{ $t('sex-option-4') }}</option>
                             </select>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                               <path d="M127.3,192h257.3c17.8,0,26.7,21.5,14.1,34.1L270.1,354.8c-7.8,7.8-20.5,7.8-28.3,0L113.2,226.1 C100.6,213.5,109.5,192,127.3,192z"/>
@@ -165,21 +399,21 @@
                             <path d="M504,256c0,137-111,248-248,248S8,393,8,256,119,8,256,8,504,119.08,504,256ZM262.65,90c-54.49,0-89.25,23-116.54,63.76A12,12,0,0,0,148.82,170l34.7,26.31a12,12,0,0,0,16.66-2.13c17.87-22.65,30.12-35.79,57.31-35.79,20.43,0,45.7,13.14,45.7,33,0,15-12.37,22.67-32.54,34C247.13,238.53,216,254.94,216,296v4a12,12,0,0,0,12,12h56a12,12,0,0,0,12-12v-1.33C296,270.2,379.19,269,379.19,192,379.19,134,319,90,262.65,90ZM256,338a46,46,0,1,0,46,46A46.05,46.05,0,0,0,256,338Z"/>
                           </svg>
                           <template slot="hover">
-                            Geschlecht der Person, die mit dem Hass-Ausdruck bezeichnet wird. Bitte auswählen: Mann, Frau, Divers (Menschen, die sich den Geschlechtern Mann und Frau nicht zuordnen möchten), Unklar (das Geschlecht geht aus dem Text nicht klar hervor)
+                            <div v-html="$t('sex-bubble')"></div>
                           </template>
                         </inline-hover>
                       </div>
 
                       <div class="category">
-                        <label>Sex. Ausrichtung <span class="regular">(Adressat/in)</span></label>
+                        <label>{{ $t('label-sex-orientation') }} <span class="regular">({{ $t('label-sex-orientation-brackets') }})</span></label>
                         <div class="form-field">
                           <div class="custom-select">
                             <select v-model="selection.sex" :class="{placeholder:!selection.sex}" @change="checkComplete">
-                              <option :value="undefined" disabled selected>Bitte wählen ...</option>
-                              <option value="hetereo">Hetereosexuell</option>
-                              <option value="homo">Homosexuell</option>
-                              <option value="bisexual">Bisexuell</option>
-                              <option value="unclear">Unklar</option>
+                              <option :value="undefined" disabled selected>{{ $t('placeholder-select') }}</option>
+                              <option value="hetereo">{{ $t('sex-orientation-option-1') }}</option>
+                              <option value="homo">{{ $t('sex-orientation-option-2') }}</option>
+                              <option value="bisexual">{{ $t('sex-orientation-option-3') }}</option>
+                              <option value="unclear">{{ $t('sex-orientation-option-4') }}</option>
                             </select>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                               <path d="M127.3,192h257.3c17.8,0,26.7,21.5,14.1,34.1L270.1,354.8c-7.8,7.8-20.5,7.8-28.3,0L113.2,226.1 C100.6,213.5,109.5,192,127.3,192z"/>
@@ -191,7 +425,7 @@
                             <path d="M504,256c0,137-111,248-248,248S8,393,8,256,119,8,256,8,504,119.08,504,256ZM262.65,90c-54.49,0-89.25,23-116.54,63.76A12,12,0,0,0,148.82,170l34.7,26.31a12,12,0,0,0,16.66-2.13c17.87-22.65,30.12-35.79,57.31-35.79,20.43,0,45.7,13.14,45.7,33,0,15-12.37,22.67-32.54,34C247.13,238.53,216,254.94,216,296v4a12,12,0,0,0,12,12h56a12,12,0,0,0,12-12v-1.33C296,270.2,379.19,269,379.19,192,379.19,134,319,90,262.65,90ZM256,338a46,46,0,1,0,46,46A46.05,46.05,0,0,0,256,338Z"/>
                           </svg>
                           <template slot="hover">
-                            Sexuelle Ausrichtung des/r Adressanten/in. Möglich sind hetero- homo-, bi- und asexuell. Die Option "Unklar" wird dann angewendet, wenn das Geschlecht aus dem Text in der Nachricht nicht klar hervorgeht.
+                            <div v-html="$t('sex-orientation-bubble')"></div>
                           </template>
                         </inline-hover>
                       </div>
@@ -209,9 +443,9 @@
         <div class="row row-wrapping row-reverse-large scroll-effect scroll-effect-delayed-2">
           <div class="col col-large-6 col-wrapping">
             <div class="button-group right-aligned">
-              <button class="button button-primary" @click="submit" :disabled="!taskLoaded || !complete && !wrongLanguage && !noHateSpeech">Antworten</button>
-              <button class="button button-secondary" @click="submitNoHatespeech" :disabled="!taskLoaded">Keine Hassausdrücke</button>
-              <button class="button button-secondary" @click="next" :disabled="!taskLoaded">Überspringen</button>
+              <button class="button button-primary" @click="submit" :disabled="!taskLoaded || !complete && !wrongLanguage && !noHateSpeech">{{ $t('button-answer') }}</button>
+              <button class="button button-secondary" @click="submitNoHatespeech" :disabled="!taskLoaded">{{ $t('button-nohatespeech') }}</button>
+              <button class="button button-secondary" @click="next" :disabled="!taskLoaded">{{ $t('button-skip') }}</button>
             </div>
           </div>
           <div class="col col-large-6 col-wrapping">
@@ -222,7 +456,7 @@
                 </div>
               </div>
               <div class="text">
-                Fortschritt {{mySubmissionCount}} von {{totalTaskCount}}
+                {{ $t('progress-label') }} {{mySubmissionCount}} {{ $t('progress-of') }} {{totalTaskCount}}
               </div>
             </div>
           </div>
@@ -402,7 +636,7 @@
     <step-wizard ref="wizard">
 
       <step-wizard-step>
-        <template slot="title">Was sind geschlechtsspezifische Hass-Ausdrücke?</template>
+        <template slot="title">{{ $t('wizard-step-1-heading')}}</template>
         <content-section slot="content">
           <div class="content-wrapper">
             <div class="row row-wrapping">
@@ -413,35 +647,26 @@
                 </div>
 
                 <p class="reduced-bottom-margin">
-                  Geschlechtsspezifische Hass-Ausdrücke sind Ausdrücke, die
+                  {{ $t('wizard-step-1-text') }}
                 </p>
                 <ul>
-                  <li>sich auf Menschen beziehen.</li>
-                  <li>von Ihnen ohne den Zusammenhang zu beachten als negativ / beleidigend / verletzend / diskriminierend klassifiziert werden.</li>
-                  <li>einen Bezug zum Geschlecht oder der sexuellen Orientierung des Menschen haben.</li>
+                  <li>{{ $t('wizard-step-1-bullet-1') }}</li>
+                  <li>{{ $t('wizard-step-1-bullet-2') }}</li>
+                  <li>{{ $t('wizard-step-1-bullet-3') }}</li>
                 </ul>
 
               </div>
               <div class="col col-large-6 col-wrapping">
 
                 <p class="reduced-bottom-margin">
-                  <b>Beispiele:</b>
+                  <b>{{ $t('wizard-step-1-examples-heading') }}</b>
                 </p>
-                <p class="reduced-bottom-margin">
-                  Geschlechtsspezifisch:
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-1-examples-specific')">
                 </p>
-                <ul>
-                  <li><b><i>Schwanz: </i></b>Kann nur für einen Mann verwendet werden.</li>
-                  <li><b><i>Weib: </i></b>Kann nur für Frauen verwendet werden.</li>
-                  <li><b><i>Homo: </i></b>Hat einen direkten Bezug zur sexuellen Orientierung.</li>
-                </ul>
-                <p class="reduced-bottom-margin">
-                  <b>Nicht</b> geschlechtsspezifisch:
+                <ul v-html="$t('wizard-step-1-examples-specific-list')"></ul>
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-1-examples-nonsp')">
                 </p>
-                <ul>
-                  <li><b><i>Arschloch: </i></b>Ist bei allen Geschlechtern gleich.</li>
-                  <li><b><i>Idiot, Trottel, Sauhund: </i></b>Hat keinen Bezug zum Geschlecht oder der sexuellen Ausrichtung.</li>
-                </ul>
+                <ul v-html="$t('wizard-step-1-examples-nonsp-list')"></ul>
 
               </div>
             </div>
@@ -450,7 +675,7 @@
       </step-wizard-step>
 
       <step-wizard-step>
-        <template slot="title">Selektion von Ausdrücken</template>
+        <template slot="title">{{ $t('wizard-step-2-heading') }}</template>
         <content-section slot="content">
           <div class="content-wrapper">
             <div class="row row-wrapping">
@@ -460,29 +685,23 @@
                   <img src="/img/graphic-selection.png" style="width:25%" />
                 </div>
 
-                <p class="reduced-bottom-margin">
-                  Wählen Sie mit Ihrer Maus Text-Teile aus, die als geschlechtsspezifische Hass-Ausdrücke erkennbar sind.
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-2-text-1')">
                 </p>
                 <ul>
-                  <li><b>Es spielt keine Rolle, ob die Ausdrücke abwertend oder nicht abwertend gemeint sind.</b></li>
-                  <li><b>Es gibt viele Mitteilungen, in denen KEINE Hassausdrücke vorkommen. Setzen Sie dann bitte ein Häkchen bei <i>keine Hassausdrücke gefunden</i></b></li>
+                  <li v-html="$t('wizard-step-2-bullet-1')"></li>
+                  <li v-if="$t('wizard-step-2-bullet-2') !== 'wizard-step-2-bullet-2'" v-html="$t('wizard-step-2-bullet-2')"></li>
                 </ul>
 
               </div>
               <div class="col col-large-6 col-wrapping">
-                <p class="reduced-bottom-margin">
-                  <b>Ausdrücke bestehen häufig aus mehr als einem Wort</b>, also z.B. einem Artikelwort (<i>der</i>, <i>die</i>, <i>das</i>, <i>ein</i>, <i>eine</i>, <i>dieser</i>, <i>diese</i>, etc.), einem Nomen (<i>Mann</i>, <i>Frau</i>, <i>Typ</i>, <i>Kerl</i>, <i>Homo</i>, <i>Lesbe</i>, <i>Ekel</i>, etc.) und weiteren Wörtern dazwischen (<i>huere</i>, <i>netter</i>, <i>blöde</i>, <i>gut ausgebildete</i>).<br>
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-2-text-2')">
+                </p>
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-2-text-3')">
                 </p>
                 <p class="reduced-bottom-margin">
-                  <b>Ausgewählt werden sollte bitte jeweils der ganze Ausdruck.</b>
+                  <b>{{ $t('wizard-step-2-examples-heading') }}</b>
                 </p>
-                <p class="reduced-bottom-margin">
-                  <b>Beispiele:</b>
-                </p>
-                <ul>
-                  <li><b><i>Der doofe Schwanz</i></b></li>
-                  <li><b><i>Der gut ausgebildete Homo</i></b></li>
-                  <li><b><i>Lesbe</i></b></li>
+                <ul v-html="$t('wizard-step-2-examples-list')">
                 </ul>
 
               </div>
@@ -492,7 +711,7 @@
       </step-wizard-step>
 
       <step-wizard-step>
-        <template slot="title">Kategorisierung</template>
+        <template slot="title">{{ $t('wizard-step-3-heading') }}</template>
         <content-section slot="content">
           <div class="content-wrapper">
             <div class="row row-wrapping">
@@ -502,39 +721,24 @@
                   <img src="/img/graphic-category.png" style="width:25%" />
                 </div>
 
-                <p class="reduced-bottom-margin">
-                  Weiter bitten wir Sie, die von Ihnen ausgewählten Ausdrücke in Bezug auf <b>drei Kategorien</b> zu beschreiben.
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-3-text')">
                 </p>
-                <p class="reduced-bottom-margin">
-                  <b>Wortherkunft</b>
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-3-list-1-title')">
                 </p>
-                <ul>
-                  <li><b>Anatomie </b>(Körperteile, z.B. <i>Schwanz</i>)</li>
-                  <li><b>Geschlechtszugehörigkeit </b>(z.B. <i>Weib</i>)</li>
-                  <li><b>Sexuelle Ausrichtung </b>(z.B. <i>Homo</i>)</li>
-                  <li><b>Andere </b>(wenn keine dieser Optionen passt)</li>
+                <ul v-html="$t('wizard-step-3-list-1')">
                 </ul>
 
               </div>
               <div class="col col-large-6 col-wrapping">
 
-                <p class="reduced-bottom-margin">
-                  <b>Geschlecht </b>(der/des Adressaten/in):
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-3-list-2-title')">
                 </p>
-                <ul>
-                  <li><b>Mann</b></li>
-                  <li><b>Frau</b></li>
-                  <li><b>Divers </b>(für Menschen, die sich den Geschlechtern Mann und Frau nicht zuordnen)</li>
-                  <li><b>Unbekannt </b>(nicht erkennbar)</li>
+                <ul v-html="$t('wizard-step-3-list-2')">
                 </ul>
-                <p class="reduced-bottom-margin">
-                  <b>Sexuelle Ausrichtung </b>(der/des Adressaten/in):
+
+                <p class="reduced-bottom-margin" v-html="$t('wizard-step-3-list-3-title')">
                 </p>
-                <ul>
-                  <li><b>Heterosexuell</b></li>
-                  <li><b>Homosexuell</b></li>
-                  <li><b>Bisexuell</b></li>
-                  <li><b>Asexuell</b></li>
+                <ul v-html="$t('wizard-step-3-list-3')">
                 </ul>
 
               </div>
