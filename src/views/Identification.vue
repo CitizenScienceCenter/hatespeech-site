@@ -51,6 +51,44 @@
 "progress-of": "von",
 
 
+"faq-heading": "Fragen & Antworten",
+
+"faq-1-question": "Wozu verpflichte ich mich?",
+"faq-1-answer": "Wenn Sie uns helfen, geschlechtsspezifische Hass-Ausdrücke zu finden, verpflichten Sie sich grundsätzlich zu gar nichts. Ob Sie einen oder 1000 Ausdrücke für uns suchen, Sie helfen uns und wir sind dankbar.",
+
+"faq-2-question": "Was sind geschlechtsspezifische Hass-Ausdrücke?",
+"faq-2-answer-text": "<p class='reduced-bottom-margin'>Geschlechtsspezifische Hass-Ausdrücke sind Ausdrücke, die</p><ul><li>sich auf Menschen beziehen.</li><li>von Ihnen ohne den Zusammenhang zu beachten als negativ / beleidigend / verletzend / diskriminierend klassifiziert werden.</li><li>einen Bezug zum Geschlecht oder der sexuellen Orientierung des Menschen haben.</li></ul>",
+"faq-2-answer-example-text-1": "Beispiele:",
+"faq-2-answer-example-list-1": "<li><b><i>Schwanz: </i></b>Kann nur für einen Mann verwendet werden.</li><li><b><i>Weib: </i></b>Kann nur für Frauen verwendet werden.</li><li><b><i>Homo: </i></b>Hat einen direkten Bezug zur sexuellen Orientierung.</li>",
+"faq-2-answer-example-text-2": "<b>Nicht</b> geschlechtsspezifisch:",
+"faq-2-answer-example-list-2": "<li><b><i>Arschloch: </i></b>Ist bei allen Geschlechtern gleich.</li><li><b><i>Idiot, Trottel, Sauhund: </i></b>Hat keinen Bezug zum Geschlecht oder der sexuellen Ausrichtung.</li>",
+
+"faq-3-question": "Wie gehe ich genau vor?",
+"faq-3-answer-text-1": "In einem ersten Schritt geht es darum, Text-Teile auszuwählen, die als geschlechtsspezifische Hass-Ausdrücke erkennbar sind. Dabei spielt es keine Rolle, ob diese abwertend oder nicht abwertend gemeint sind, sie sollen in einem ersten Schritt nur identifiziert werden. Dazu wird im grünen Feld links mit dem Titel <i>1. Identifizieren</i> von geschlechtsspezifischen Hass-Ausdrücken der ganze Ausdruck, den Sie identifiziert haben, mit der Maus angewählt. Wenn Sie jetzt auf den Knopf <i>hinzufügen</i> klicken, wird alles, was Sie angewählt haben, unterhalb des Titels <i>2. Klassifikation</i> aufgelistet. Führen Sie diesen Schritt bitte so oft aus, bis alle geschlechtsspezifischen Hass-Ausdrücke in der dargestellten Nachricht in der Tabelle stehen. Fehler sind kein Problem: Ausdrücke in der Tabelle können mit einem Klick auf das <i>X</i> jederzeit wieder entfernt werden.",
+"faq-3-answer-text-2": "In einem weiteren Schritt bitten wir Sie, die von Ihnen ausgewählten Ausdrücke in Bezug auf drei Kategorien zu beschreiben. Bei diesen Beurteilungen geht es uns darum, in einer späteren Auswertung analysieren zu können, wie eine Person beleidigt wird und wer beleidigt wird. Entsprechend bezieht sich die erste Kategorie auf das Wie, also auf die Wortherkunft des Hass-Ausdrucks, die zwei anderen Kategorien sollen aufzeigen, auf Grund welcher Eigenschaften eine Person mutmasslich beleidigt wird. Für diese Beurteilung benötigen wir die beiden Kategorien Geschlecht und sexuelle Ausrichtung.",
+"faq-3-answer-options-1-text": "Optionen für die Wortherkunft:",
+"faq-3-answer-options-1-list": "<li>Anatomie (Körperteile, z.B. <i>Schwanz</i>)</li><li>Tätigkeiten (z.B. <i>Hure</i>, <i>Wichser</i>)</li><li>Die Geschlechtszugehörigkeit, wenn also auf die Person gezielt wird (z.B. <i>Weib</i>)</li><li>Die sexuelle Ausrichtung, auch hier wird auf die Person gezielt (z.B. <i>Homo</i>, wenn es abwertend gebraucht wird)</li><li>Andere: Wenn keine dieser Optionen passt, wählen Sie bitte Andere an.</li>",
+"faq-3-answer-options-2-text": "Optionen für das Geschlecht der beleidigten Person:",
+"faq-3-answer-options-2-text-2": "Bitte beachten Sie, dass das Geschlecht wirklich aus dem Zusammenhang des Textes erkennbar sein muss und nicht erraten oder erahnt werden darf.",
+"faq-3-answer-options-2-list": "<li>Mann</li><li>Frau</li><li>Divers: Die Bezeichnung Divers wird in Deutschland für Menschen verwendet, die sich den Geschlechtern Mann und Frau nicht zuordnen.</li><li>Unbekannt: Oft ist das Geschlecht im Zusammenhang des Textes nicht erkennbar. Wählen Sie in dem Fall bitte die Option Unbekannt.</li>",
+"faq-3-answer-options-3-text": "Optionen für die sexuelle Ausrichtung:",
+"faq-3-answer-options-3-text-2": "Erneut ist es wichtig, dass diese Orientierung tatsächlich aus dem Text hervorgeht.",
+"faq-3-answer-options-3-list": "<li>Heterosexuell</li><li>Homosexuell</li><li>Bisexuell</li><li>Asexuell</li><li>Unklar: Aus dem Zusammenhang des Textes ist die sexuelle Orientierung nicht erkennbar.</li>",
+"faq-3-answer-text-3": "Wenn Sie alles auf dieser Seite korrekt ausgewählt und kategorisiert haben, können Sie Ihre Angaben mit <i>antworten</i> speichern und zur nächsten Nachricht gelangen.",
+
+"faq-4-question": "Welchen Teil des Textes muss ich auswählen?",
+"faq-4-answer": "Wir interessieren uns für Ausdrücke, in denen eine Person wegen ihres Geschlechts oder ihrer sexuellen Ausrichtung angefeindet wird. Diese Ausdrücke bestehen häufig aus mehr als einem Wort, also z.B. einem Artikelwort (<i>der</i>, <i>die</i>, <i>das</i>, <i>ein</i>, <i>eine</i>, <i>dieser</i>, <i>diese</i>, etc.), einem Nomen (<i>Mann</i>, <i>Frau</i>, <i>Typ</i>, <i>Kerl</i>, <i>Homo</i>, <i>Lesbe</i>, <i>Ekel</i>, etc.) und weiteren Wörtern dazwischen (<i>huere</i>, <i>netter</i>, <i>blöde</i>, <i>gut ausgebildete</i>). Das ergibt dann z.B.: 1. <i>Der doofe Schwanz</i>, 2. <i>Der gut ausgebildete Homo</i>, 3. <i>Lesbe</i>. Ausgewählt werden sollte bitte jeweils der ganzen Ausdruck, also alles zwischen dem Artikelwort und dem Nomen, wobei der Artikel fehlen kann wie in Beispiel 3. Ebenso können zwischen dem Artikelwort und dem Nomen noch weitere Wörter stehen, die dann auch mit ausgewählt werden sollen.",
+
+"faq-5-question": "Der Text ist gar nicht Deutsch!",
+"faq-5-answer": "Unsere Datensammlung beinhaltet Texte in den drei grösseren Landessprachen. Wir haben menschliche und technologische Hilfe verwendet, um den einzelnen Nachrichten eine Haupt-Sprache zuzuordnen. In vielen Fällen funktioniert das gut, aber nicht immer. Wenn der angezeigte Text nicht Deutsch ist, so können Sie uns das mit einem Klick auf <i>Text ist nicht Deutsch</i> mitteilen und sich einen nächsten Text anzeigen lassen. Bedenken Sie dabei aber, dass wir die Bezeichnung Deutsch wesentlich grosszügiger beurteilen, als dies vielleicht eine Primarlehrperson tun würde. Unter Deutsch verstehen wir auch Nachrichten mit vielen Schreib- und Tippfehlern sowie Schweizerdeutsche Nachrichten, also nicht nur das Hochdeutsch, das Sie in der Schule gelernt haben. Lesen Sie den Text also bitte genau durch, manche Dialekte sind nicht auf Anhieb als Deutsch zu erkennen. Tipp: Versuchen Sie im Zweifel, den Text laut zu lesen. So können Sie unter Umständen erkennen, ob etwas dialektal ist und nicht etwa eine Fremdsprache.",
+
+"faq-6-question": "Was passiert, wenn wir alle Texte bearbeitet haben?",
+"faq-6-answer": "Wir möchten in diesem ersten Schritt zunächst alle geschlechtsspezifischen Hass-Ausdrücke identifizieren. Das geht am einfachsten, wenn wir Ihnen immer nur eine Nachricht nach der anderen zeigen. Im nächsten Schritt wird es darum gehen, die gefundenen Ausdrücke zu klassifizieren, also zu bestimmen, ob sie wirklich abwertend gebraucht werden oder ob sie sogar freundschaftlich gemeint sind. Um dies bestimmen zu können, muss die Nachricht im Zusammenhang mit der vorhergehenden und der nachfolgenden Nachricht gesehen werden. Wir werden also im zweiten Schritt auch die vorangehende und die folgende Nachricht zeigen und Sie fragen, wie Sie den Ausdruck klassifizieren. Wir würden uns freuen, wenn Sie auch an diesem Schritt mitarbeiten würden.",
+
+"faq-7-question": "Ihr sprecht immer von Chats, Nachrichten und Ausdrücken, was ist das genau?",
+"faq-7-answer": "Wenn Sie mit jemandem per WhatsApp chatten, dann entsteht ein ganzer Dialog, in dem mal Sie und mal die andere(n) Person(en) etwas schreiben. Dieser Dialog zieht sich oft über ganze Jahre hin und wird von uns als Chat bezeichnet. In diesem Chat gibt es Sprechblasen, die Sie geschrieben haben und solche, die jemand anders geschrieben hat. Jede einzelne Sprechblase bezeichnen wir als Nachricht. Der Ausdruck schliesslich hat eigentlich nichts mit WhatsApp zu tun, sondern ist das, was wir suchen, nämlich den Teil einer Nachricht, in dem geschlechtsspezifischer Hass ausgedrückt wird.",
+
+
 "wizard-step-1-heading": "Was sind geschlechtsspezifische Hass-Ausdrücke?",
 "wizard-step-1-text": "Geschlechtsspezifische Hass-Ausdrücke sind Ausdrücke, die",
 "wizard-step-1-bullet-1": "sich auf Menschen beziehen.",
@@ -132,6 +170,44 @@
 "progress-of": "sur",
 
 
+"faq-heading": "FAQ",
+
+"faq-1-question": "Je m’engage à quoi exactement ?",
+"faq-1-answer": "Si vous nous aidez à trouver des expressions de haine sexospécifique, vous ne vous engagez à rien. Que vous recherchiez pour nous une ou 1000 expressions, vous nous aidez et nous vous en sommes reconnaissants.",
+
+"faq-2-question": "Les expressions de haine sexospécifique, qu’est-ce que c’est ?",
+"faq-2-answer-text": "<p class='reduced-bottom-margin'>Par expressions de haine sexospécifique, nous entendons les expressions qui se réfèrent à des humains, qui se rapportent au sexe ou à l’orientation sexuelle du destinataire et qui peuvent être perçues comme négatives, offensives, blessantes et ou discriminatoires.</p>",
+"faq-2-answer-example-text-1": "Voici quelques exemples :",
+"faq-2-answer-example-list-1": "<li><b><i>tarlouze : </i></b>n’est utilisé que pour décrire un homme et est en rapport direct avec une orientation sexuelle homosexuelle.</li><li><b><i>gonzesse : </i></b>est un mot péjoratif pour décrire une femme ou une fille.</li>",
+"faq-2-answer-example-text-2": "Nous <b>ne considérons pas</b> comme expression de haine sexospécifique les exemples suivants :",
+"faq-2-answer-example-list-2": "<li><b><i>trou du cul : </i></b>bien que le terme désigne une partie du corps, il est le même pour tous les sexes.</li><li><b><i>andouille, idiot, abruti : </i></b>ce sont des insultes, mais elles n'ont aucun rapport avec le sexe ou l'orientation sexuelle du destinataire.</li>",
+
+"faq-3-question": "Comment faire ?",
+"faq-3-answer-text-1": "Dans un premier temps, vous devez sélectionner une expression que vous identifiez comme une expression de haine sexospécifique. Pour l’instant, il n’est pas important qu’elles soient dérogatoires ou non, la première étape est simplement l’identification de l’expression. Utilisez la souris pour sélectionner l'expression entière que vous avez identifiée en cliquant sur <i>1. Identifier les expressions de haine sexospécifique</i>. Si vous cliquez maintenant sur le bouton <i>Ajouter</i> le texte sélectionné, tout ce que vous avez sélectionné est répertorié dans une colonne colorée d'un tableau. Veuillez répéter cette étape jusqu'à ce que toutes les expressions de haine sexospécifique dans le message affiché soient dans le tableau. Les erreurs ne sont pas un problème : les expressions du tableau peuvent être supprimées à tout moment en cliquant sur le X.",
+"faq-3-answer-text-2": "La deuxième étape consiste à classer les expressions que vous avez sélectionnées par rapport à trois catégories. Le but de ces recherches est de pouvoir analyser dans une évaluation ultérieure comment ces insultes spécifiques au sexe sont employées (et pour désigner qui). Pour cela, la première catégorie cherche à identifier l’origine du mot principal de l’expression.  Les deux autres catégories sont censées montrer les caractéristiques sur la base desquelles une personne est insultée et/ou discriminée. Pour cette évaluation, nous avons besoin d’une catégorie relative au sexe et d’une seconde qui concerne l’orientation sexuelle du destinataire.",
+"faq-3-answer-options-1-text": "Options pour l'origine du mot :",
+"faq-3-answer-options-1-list": "<li>anatomie (parties du corps, par exemple <i>la chatte</i>)</li><li>activités (par exemple <i>putain</i>, <i>branleur</i>)</li><li>le sexe, s'il vise la personne (par exemple <i>gonzesse</i>)</li><li>l'orientation sexuelle (par exemple <i>tapette</i>)</li><li>autre : si aucune de ces options ne convient, veuillez sélectionner autre.</li>",
+"faq-3-answer-options-2-text": "Options pour le sexe du destinataire :",
+"faq-3-answer-options-2-text-2": "Veuillez noter que le sexe doit vraiment être reconnaissable dans le contexte du texte et ne doit pas être deviné.",
+"faq-3-answer-options-2-list": "<li>homme</li><li>femme</li><li>autre: pour les personnes dont l’identité de genre ne s’inscrit pas dans la norme binaire</li><li>non reconnaissable: souvent le sexe du destinataire de l’expression de haine sexospécifique n’est pas reconnaissable dans le contexte qu’offre le message isolé. Dans ce cas, veuillez sélectionner l'option non reconnaissable.</li>",
+"faq-3-answer-options-3-text": "Options pour l’orientation sexuelle du destinataire :",
+"faq-3-answer-options-3-text-2": "Encore une fois, il est important que cette information ressorte du texte.",
+"faq-3-answer-options-3-list": "<li>hétérosexué</li><li>homosexuel</li><li>bisexuel</li><li>asexuel</li><li>pas clair : dans le contexte du message, il n’est pas possible de définir l’orientation sexuelle du destinataire</li>",
+"faq-3-answer-text-3": "Si vous avez correctement sélectionné et catégorisé tout sur cette page, vous pouvez enregistrer vos coordonnées en cliquant sur Suivant et passer au message suivant.",
+
+"faq-4-question": "Quelle partie du texte dois-je sélectionner ?",
+"faq-4-answer": "Nous nous intéressons aux expressions dans lesquelles une personne est victime de haine en raison de son sexe ou de son orientation sexuelle. Ces expressions se composent souvent de plus d'un mot, par ex. d’un mot d'article (<i>le</i>, <i>le</i>, <i>le</i>, <i>un</i>, <i>ceci</i>, <i>ceci</i> etc.), d’un nom (<i>homme</i>, <i>femme</i>, <i>type</i>, <i>gars</i>, <i>homo</i>, <i>lesbienne</i>, etc.) et d'autres mots entre les deux (plus agréable, stupide, bien éduqué). Il en résulte des expressions comme : 1. <i>Le suceur de bites</i>, 2. <i>La gonzesse bien éduqué</i>, 3. <i>cougar</i>. Veuillez sélectionner l'expression entière, c'est-à-dire tout ce qui se trouve entre le mot d'article et le nom, bien que l'article puisse être manquant comme dans l'exemple 3. De même, il peut y avoir d'autres mots entre le mot d'article et le nom, ceux-ci doivent également être sélectionnés.",
+
+"faq-5-question": "Le texte n’est pas français!",
+"faq-5-answer": "Notre banque de données contient des textes dans les trois principales langues nationales. Nous avons utilisé de l'aide humaine et artificielle pour attribuer une langue aux messages individuels. La plupart du temps, cela fonctionne très bien, mais pas toujours. Si le texte affiché n'est pas en français, vous pouvez nous le signaler en cliquant sur <b>Le texte n’est pas français</b> et afficher le message suivant. Veuillez néanmoins gardez à l'esprit que nous jugeons le terme français très généreusement. Par français, nous entendons également des messages avec de nombreuses fautes d’orthographe, de frappe et des abréviations, des textes donc, que n’accepteraient ni l’académie française, ni les enseignants des écoles. Veuillez lire le texte attentivement, certains textes ne sont pas immédiatement reconnaissables comme français. En cas de doute, essayez de lire le texte à haute voix. Vous pourrez peut-être mieux juger s’il s’agit de messages en français ou d’un message rédigé dans une autre langue.",
+
+"faq-6-question": "Que se passe-t-il quand tous les textes sont édités ?",
+"faq-6-answer": "Dans cette première étape, nous voulons d'abord identifier toutes les expressions de haine sexospécifique. Il est plus simple de ne montrer qu'un seul message à la fois. L'étape suivante consistera à classer les expressions trouvées, c'est-à-dire à déterminer si elles sont vraiment utilisées de manière dérogatoire ou si elles sont conçues de manière conviviale. Pour pouvoir déterminer cela, le message doit être interprété dans son contexte, donc par rapport aux messages précédents et suivants. Ainsi, dans la deuxième étape, nous afficherons également les messages alentours et vous demanderons de classer l’expression. Nous serions ravis si vous travailliez également sur cette étape.",
+
+"faq-7-question": "Vous parlez toujours de chats, de messages et d'expressions, qu'est-ce que c'est exactement ?",
+"faq-7-answer": "Lorsque vous discutez avec quelqu'un via WhatsApp, un dialogue entier se produit. Dans ce dialogue, vous et votre interlocuteur écrivez quelque chose. Ce dialogue dure souvent des années et il est appelé chat. Chaque bulle de dialogue est un message. L'expression, quant à elle, n'a rien à voir avec WhatsApp, mais c'est ce que nous recherchons, à savoir la partie d'un message qui exprime la haine sexospécifique.",
+
+
 "wizard-step-1-heading": "Les expressions de haine sexospécifique, qu’est ce que c’est ?",
 "wizard-step-1-text": "Les expressions de haine sexospécifique désignent les expressions qui :",
 "wizard-step-1-bullet-1": "désignent des humains,",
@@ -160,7 +236,6 @@
 "wizard-step-3-list-2": "<li><b>homme</b></li><li><b>femme</b></li><li><b>autre </b>(pour les personnes dont l’identité de genre ne s’inscrit pas dans la norme binaire)</li><li><b>non reconnaissable </b></li>",
 "wizard-step-3-list-3-title": "<b>Orientation sexuelle </b>(du destinataire) :",
 "wizard-step-3-list-3": "<li><b>hétérosexuel</b></li><li><b>homosexuel</b></li><li><b>bisexuel</b></li><li><b>asexuel</b></li><li><b>pas clair</b></li>"
-
 
 },
 
@@ -212,6 +287,44 @@
 
 "progress-label": "Progresso",
 "progress-of": "di",
+
+
+"faq-heading": "FAQ",
+
+"faq-1-question": "Cosa mi impegno a fare?",
+"faq-1-answer": "Se Lei ci aiuta a trovare delle espressioni di odio basate sul genere, fondamentalmente non si impegna a fare nulla. Se Lei cerca una o 1000 espressioni per noi, in ogni caso ci aiuta e noi Le siamo grati.",
+
+"faq-2-question": "Cosa sono le espressioni di odio basate sul genere?",
+"faq-2-answer-text": "<p class='reduced-bottom-margin'>Le espressioni di odio basate sul genere indicano espressioni che si riferiscono a persone, che sono classificate da Lei come negative / ingiuriose / offensive / discriminatorie senza tenere conto del contesto e che hanno un riferimento al genere o all’orientamento sessuale della persona.</p>",
+"faq-2-answer-example-text-1": "Come espressioni di odio basate sul genere identifichiamo p. es.:",
+"faq-2-answer-example-list-1": "<li><b><i>Donnetta: </i></b>è irrispettoso e può essere utilizzato solo riferendosi al genere femminile.</li><li><b><i>Frocio: </i></b>ha un riferimento diretto all’orientamento sessuale.</li>",
+"faq-2-answer-example-text-2": "Come espressioni di odio <b>Non</b> basate sul genere identifichiamo:",
+"faq-2-answer-example-list-2": "<li><b><i>Buco del culo: </i></b>l’espressione indica una parte del corpo, ma questa è uguale per tutti i sessi.</li><li><b><i>Idiota, imbecille, carogna: </i></b>queste sono tutte ingiurie, ma non hanno alcun riferimento al genere o all’orientamento sessuale.</li>",
+
+"faq-3-question": "Come procedo esattamente?",
+"faq-3-answer-text-1": "In una prima fase si tratta di scegliere delle parti di testo riconoscibili come espressioni di odio basate sul genere. In questo caso non cambia se le espressioni sono intese in senso dispregiativo oppure no, in una prima fase devono soltanto essere identificate. Selezioni con il mouse l’intera espressione da Lei identificata nella prima area colorata con il titolo 1. Identificazione di espressioni di odio basate sul genere. Se ora clicca sul pulsante “aggiungere il testo evidenziato”, tutto ciò che avrà selezionato sarà elencato in un secondo blocco colorato in una tabella. Per favore ripeta questa operazione fino a che tutte le espressioni di odio basate sul genere nei messaggi rappresentati siano nella tabella. Gli errori non sono un problema: le espressioni nella tabella possono essere eliminate nuovamente in ogni momento cliccando sulla X.",
+"faq-3-answer-text-2": "In una seconda fase La preghiamo di descrivere le espressioni da Lei scelte in relazione a tre categorie. In questa valutazione si tratta per noi di poter analizzare successivamente come una persona è offesa e chi. Rispettivamente, la prima categoria si riferisce al come, quindi all’origine della parola dell’espressione di odio, le altre due categorie devono mostrare a causa di quali caratteristiche una persona è presumibilmente offesa. Per questa valutazione abbiamo bisogno di entrambe le categorie sesso e orientamento sessuale.",
+"faq-3-answer-options-1-text": "Opzioni per l’origine della parola:",
+"faq-3-answer-options-1-list": "<li>Anatomia (parti del corpo, p. es. <i>cazzo</i>)</li><li>Attività (p. es. <i>puttana</i>, <i>segaiolo</i>)</li><li>Appartenenza a un genere, se quindi si mira alla persona (p. es. <i>donnetta</i>)</li><li>Orientamento sessuale, anche qui si mira alla persona (p. es. <i>frocio</i>)</li><li>Altro: se nessuna di queste opzioni corrisponde scelga per favore altro.</li>",
+"faq-3-answer-options-2-text": "Opzioni per il sesso della persona offesa:",
+"faq-3-answer-options-2-text-2": "Per favore, tenga presente che il sesso deve veramente essere riconoscibile dal contesto del messaggio e non deve essere indovinato o intuito.",
+"faq-3-answer-options-2-list": "<li>Uomo</li><li>Donna</li><li>Diverso: per le persone che non desiderano associarsi ai sessi uomo e donna.</li><li>Sconosciuto: spesso il sesso non è riconoscibile dal contesto del messaggio. In questo caso scelga per favore l’opzione sconosciuto.</li>",
+"faq-3-answer-options-3-text": "Opzioni per l’orientamento sessuale:",
+"faq-3-answer-options-3-text-2": "di nuovo è importante che questo orientamento emerga effettivamente dal testo.",
+"faq-3-answer-options-3-list": "<li>Eterosessuale</li><li>Omosessuale</li><li>Bisessuale</li><li>Asessuale</li><li>Non chiaro: dal contesto del messaggio l’orientamento sessuale non è riconoscibile.</li>",
+"faq-3-answer-text-3": "Se Lei ha selezionato e classificato tutto correttamente su questa pagina, può salvare le Sue indicazioni con “rispondere” e passare al messaggio seguente.",
+
+"faq-4-question": "Quale parte del testo devo scegliere?",
+"faq-4-answer": "Ci interessiamo per le espressioni con le quali una persona è osteggiata a causa del suo genere o del suo orientamento sessuale. Spesso queste espressioni consistono in più di una parola, quindi p. es. in un articolo (<i>il</i>, <i>lo</i>, <i>la</i>, <i>i</i>, <i>un</i>, <i>una</i> ecc.), un sostantivo (<i>uomo</i>, <i>donna</i>, <i>tipo</i>, <i>frocio</i>, <i>lesbica</i>, <i>schifo</i> ecc.), e ulteriori parole in mezzo (<i>gentile</i>, <i>imbecille</i>, <i>idiota</i>, ecc.). Questo risulta p. es. in: 1. <i>Una figa di legno.</i> 2. <i>Quello sporco frocio.</i> 3. <i>Lesbica</i>. Ogni volta dovrebbe essere selezionata l’intera espressione, dunque anche tutto ciò che si trova tra l’articolo e il sostantivo, sebbene l’articolo possa mancare, come nell’esempio 3. Allo stesso modo, tra l’articolo e il sostantivo possono esserci altre parole in mezzo che devono essere selezionate ugualmente.",
+
+"faq-5-question": "Il testo non è affatto in italiano!",
+"faq-5-answer": "La nostra raccolta dati comprende testi nelle tre lingue nazionali più diffuse. Abbiamo impiegato aiuti umani e tecnologici per associare una lingua principale ai singoli messaggi. In molti casi questo funziona bene, ma non sempre. Se il testo mostrato non è in italiano, allora Lei può segnalarcelo cliccando su “Il testo non è in italiano” e farsi mostrare il testo seguente. Tenga tuttavia presente che giudichiamo la denominazione italiano in modo più ampio rispetto a quello che potrebbe fare una persona che insegna alle elementari. Sotto italiano comprendiamo anche messaggi con molti errori grammaticali e di battitura così come messaggi in dialetto, quindi non soltanto nell’italiano standard che si impara a scuola. Dunque, legga attentamente il testo, alcuni dialetti non sono riconoscibili a primo impatto. Suggerimento: cerchi, nel dubbio, di leggere il testo ad alta voce. In questo modo potrà riconoscere se qualcosa è in italiano e non in una lingua straniera.",
+
+"faq-6-question": "Cosa succederà una volta elaborati tutti i testi?",
+"faq-6-answer": "In questa prima fase vorremmo innanzitutto identificare tutte le espressioni di odio basate sul genere. Questo funziona in modo più semplice se noi Le mostriamo soltanto un messaggio alla volta. Nella fase successiva si tratterà poi di classificare le espressioni trovate, quindi di stabilire se sono veramente usate in senso dispregiativo o se sono addirittura da intendere in modo amichevole. Per determinare ciò, il messaggio deve essere visto nel contesto del messaggio precedente e di quello successivo. Quindi, nella seconda fase, mostreremo anche gli altri messaggi e Le chiederemo come classifica l’espressione. Saremmo contenti se Lei collaborasse anche a questa fase.",
+
+"faq-7-question": "Parlate sempre di chat, messaggi ed espressioni, di cosa si tratta esattamente?",
+"faq-7-answer": "Se Lei chatta con qualcuno su WhatsApp, si forma un intero dialogo nel quale si scrive alternativamente tra due o più persone. Questo dialogo continua spesso per più anni ed è da noi chiamato chat. In questa chat ci sono dei fumetti che ha scritto Lei e altri che ha scritto un’altra persona. Denominiamo messaggio ogni singolo fumetto. L’espressione, infine, non ha nulla a che fare con WhatsApp, bensì è ciò che cerchiamo, cioè la parte del messaggio in cui è espresso dell’odio basato sul genere.",
 
 
 "wizard-step-1-heading": "Cosa sono le espressioni di odio basate sul genere?",
@@ -470,153 +583,73 @@
         <div class="row row-centered margin-bottom">
 
           <div class="col col-tablet-portrait-10 col-large-8 col-xlarge-6 scroll-effect">
-            <h2 class="heading centered">Fragen & Antworten</h2>
+            <h2 class="heading centered">{{ $t('faq-heading') }}</h2>
             <expandable>
-              <template slot="header">Wozu verpflichte ich mich?</template>
+              <template slot="header">{{ $t('faq-1-question') }}</template>
               <template slot="content">
-                <p>
-                  Wenn Sie uns helfen, geschlechtsspezifische Hass-Ausdrücke zu finden, verpflichten Sie sich grundsätzlich zu gar nichts. Ob Sie einen oder 1000 Ausdrücke für uns suchen, Sie helfen uns und wir sind dankbar.
-                </p>
+                <p v-html="$t('faq-1-answer')"></p>
               </template>
             </expandable>
             <expandable>
-              <template slot="header">Was sind geschlechtsspezifische Hass-Ausdrücke?</template>
+              <template slot="header">{{ $t('faq-2-question') }}</template>
               <template slot="content">
-                <p class="reduced-bottom-margin">
-                  Geschlechtsspezifische Hass-Ausdrücke sind Ausdrücke, die
+                <div class="reduced-bottom-margin" v-html="$t('faq-2-answer-text')">
+                </div>
+                <p class="reduced-bottom-margin" v-html="$t('faq-2-answer-example-text-1')">
                 </p>
-                <ul class="reduced-bottom-margin">
-                  <li>sich auf Menschen beziehen.</li>
-                  <li>von Ihnen ohne den Zusammenhang zu beachten als negativ / beleidigend / verletzend / diskriminierend klassifiziert werden.</li>
-                  <li>einen Bezug zum Geschlecht oder der sexuellen Orientierung des Menschen haben.</li>
+                <ul class="reduced-bottom-margin" v-html="$t('faq-2-answer-example-list-1')">
                 </ul>
-                <p class="reduced-bottom-margin">
-                  <b>Beispiele:</b>
+                <p class="reduced-bottom-margin" v-html="$t('faq-2-answer-example-text-2')">
                 </p>
-                <p class="reduced-bottom-margin">
-                  Geschlechtsspezifisch:
-                </p>
-                <ul class="reduced-bottom-margin">
-                  <li><b><i>Schwanz: </i></b>Kann nur für einen Mann verwendet werden.</li>
-                  <li><b><i>Weib: </i></b>Kann nur für Frauen verwendet werden.</li>
-                  <li><b><i>Homo: </i></b>Hat einen direkten Bezug zur sexuellen Orientierung.</li>
-                </ul>
-                <p class="reduced-bottom-margin">
-                  <b>Nicht</b> geschlechtsspezifisch:
-                </p>
-                <ul class="reduced-bottom-margin">
-                  <li><b><i>Arschloch: </i></b>Ist bei allen Geschlechtern gleich.</li>
-                  <li><b><i>Idiot, Trottel, Sauhund: </i></b>Hat keinen Bezug zum Geschlecht oder der sexuellen Ausrichtung.</li>
+                <ul class="reduced-bottom-margin" v-html="$t('faq-2-answer-example-list-2')">
                 </ul>
               </template>
             </expandable>
             <expandable>
-              <template slot="header">Wie gehe ich genau vor?</template>
+              <template slot="header">{{ $t('faq-3-question') }}</template>
               <template slot="content">
-                <p class="reduced-bottom-margin">
-                  In einem ersten Schritt geht es darum, Text-Teile auszuwählen, die als geschlechtsspezifische Hass-Ausdrücke erkennbar sind. Dabei spielt es keine Rolle, ob diese abwertend oder nicht abwertend gemeint sind, sie sollen in einem ersten Schritt nur identifiziert werden. Dazu wird im grünen Feld links mit dem Titel <i>1. Identifizieren</i> von geschlechtsspezifischen Hass-Ausdrücken der ganze Ausdruck, den Sie identifiziert haben, mit der Maus angewählt. Wenn Sie jetzt auf den Knopf <i>hinzufügen</i> klicken, wird alles, was Sie angewählt haben, unterhalb des Titels <i>2. Klassifikation</i> aufgelistet. Führen Sie diesen Schritt bitte so oft aus, bis alle geschlechtsspezifischen Hass-Ausdrücke in der dargestellten Nachricht in der Tabelle stehen. Fehler sind kein Problem: Ausdrücke in der Tabelle können mit einem Klick auf das <i>X</i> jederzeit wieder entfernt werden.
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-text-1')">
                 </p>
-                <p class="reduced-bottom-margin">
-                  In einem weiteren Schritt bitten wir Sie, die von Ihnen ausgewählten Ausdrücke in Bezug auf drei Kategorien zu beschreiben. Bei diesen Beurteilungen geht es uns darum, in einer späteren Auswertung analysieren zu können, wie eine Person beleidigt wird und wer beleidigt wird. Entsprechend bezieht sich die erste Kategorie auf das Wie, also auf die Wortherkunft des Hass-Ausdrucks, die zwei anderen Kategorien sollen aufzeigen, auf Grund welcher Eigenschaften eine Person mutmasslich beleidigt wird. Für diese Beurteilung benötigen wir die beiden Kategorien Geschlecht und sexuelle Ausrichtung.
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-text-2')">
                 </p>
-                <p class="reduced-bottom-margin">
-                  Optionen für die Wortherkunft:
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-1-text')">
                 </p>
-                <ul class="reduced-bottom-margin">
-                  <li>
-                    Anatomie (Körperteile, z.B. <i>Schwanz</i>)
-                  </li>
-                  <li>
-                    Tätigkeiten (z.B. <i>Hure</i>, <i>Wichser</i>)
-                  </li>
-                  <li>
-                    Die Geschlechtszugehörigkeit, wenn also auf die Person gezielt wird (z.B. <i>Weib</i>)
-                  </li>
-                  <li>
-                    Die sexuelle Ausrichtung, auch hier wird auf die Person gezielt (z.B. <i>Homo</i>, wenn es abwertend gebraucht wird)
-                  </li>
-                  <li>
-                    Andere: Wenn keine dieser Optionen passt, wählen Sie bitte Andere an.
-                  </li>
+                <ul class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-1-list')">
                 </ul>
-                <p class="reduced-bottom-margin">
-                  Optionen für das Geschlecht der beleidigten Person:
-                </p>
-                <p class="reduced-bottom-margin">
-                  Bitte beachten Sie, dass das Geschlecht wirklich aus dem Zusammenhang des Textes erkennbar sein muss und nicht erraten oder erahnt werden darf.
-                </p>
-                <ul class="reduced-bottom-margin">
-                  <li>
-                    Mann
-                  </li>
-                  <li>
-                    Frau
-                  </li>
-                  <li>
-                    Divers: Die Bezeichnung Divers wird in Deutschland für Menschen verwendet, die sich den Geschlechtern Mann und Frau nicht zuordnen.
-                  </li>
-                  <li>
-                    Unbekannt: Oft ist das Geschlecht im Zusammenhang des Textes nicht erkennbar. Wählen Sie in dem Fall bitte die Option Unbekannt.
-                  </li>
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-2-text')"></p>
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-2-text-2')"></p>
+                <ul class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-2-list')">
                 </ul>
-                <p class="reduced-bottom-margin">
-                  Optionen für die sexuelle Ausrichtung:
-                </p>
-                <p class="reduced-bottom-margin">
-                  Erneut ist es wichtig, dass diese Orientierung tatsächlich aus dem Text hervorgeht.
-                </p>
-                <ul class="reduced-bottom-margin">
-                  <li>
-                    Heterosexuell
-                  </li>
-                  <li>
-                    Homosexuell
-                  </li>
-                  <li>
-                    Bisexuell
-                  </li>
-                  <li>
-                    Asexuell
-                  </li>
-                  <li>
-                    Unklar: Aus dem Zusammenhang des Textes ist die sexuelle Orientierung nicht erkennbar.
-                  </li>
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-3-text')"></p>
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-3-text-2')"></p>
+                <ul class="reduced-bottom-margin" v-html="$t('faq-3-answer-options-3-list')">
                 </ul>
-                <p class="reduced-bottom-margin">
-                  Wenn Sie alles auf dieser Seite korrekt ausgewählt und kategorisiert haben, können Sie Ihre Angaben mit <i>antworten</i> speichern und zur nächsten Nachricht gelangen.
+                <p class="reduced-bottom-margin" v-html="$t('faq-3-answer-text-3')">
                 </p>
               </template>
             </expandable>
             <expandable>
-              <template slot="header">Welchen Teil des Textes muss ich auswählen?</template>
+              <template slot="header">{{ $t('faq-4-question') }}</template>
               <template slot="content">
-                <p class="reduced-bottom-margin">
-                  Wir interessieren uns für Ausdrücke, in denen eine Person wegen ihres Geschlechts oder ihrer sexuellen Ausrichtung angefeindet wird. Diese Ausdrücke bestehen häufig aus mehr als einem Wort, also z.B. einem Artikelwort (<i>der</i>, <i>die</i>, <i>das</i>, <i>ein</i>, <i>eine</i>, <i>dieser</i>, <i>diese</i>, etc.), einem Nomen (<i>Mann</i>, <i>Frau</i>, <i>Typ</i>, <i>Kerl</i>, <i>Homo</i>, <i>Lesbe</i>, <i>Ekel</i>, etc.) und weiteren Wörtern dazwischen (<i>huere</i>, <i>netter</i>, <i>blöde</i>, <i>gut ausgebildete</i>). Das ergibt dann z.B.: 1. <i>Der doofe Schwanz</i>, 2. <i>Der gut ausgebildete Homo</i>, 3. <i>Lesbe</i>. Ausgewählt werden sollte bitte jeweils der ganzen Ausdruck, also alles zwischen dem Artikelwort und dem Nomen, wobei der Artikel fehlen kann wie in Beispiel 3. Ebenso können zwischen dem Artikelwort und dem Nomen noch weitere Wörter stehen, die dann auch mit ausgewählt werden sollen.
-                </p>
+                <p class="reduced-bottom-margin" v-html="$t('faq-4-answer')"></p>
               </template>
             </expandable>
             <expandable>
-              <template slot="header">Der Text ist gar nicht Deutsch!</template>
+              <template slot="header">{{ $t('faq-5-question') }}</template>
               <template slot="content">
-                <p class="reduced-bottom-margin">
-                  Unsere Datensammlung beinhaltet Texte in den drei grösseren Landessprachen. Wir haben menschliche und technologische Hilfe verwendet, um den einzelnen Nachrichten eine Haupt-Sprache zuzuordnen. In vielen Fällen funktioniert das gut, aber nicht immer. Wenn der angezeigte Text nicht Deutsch ist, so können Sie uns das mit einem Klick auf <i>Text ist nicht Deutsch</i> mitteilen und sich einen nächsten Text anzeigen lassen. Bedenken Sie dabei aber, dass wir die Bezeichnung Deutsch wesentlich grosszügiger beurteilen, als dies vielleicht eine Primarlehrperson tun würde. Unter Deutsch verstehen wir auch Nachrichten mit vielen Schreib- und Tippfehlern sowie Schweizerdeutsche Nachrichten, also nicht nur das Hochdeutsch, das Sie in der Schule gelernt haben. Lesen Sie den Text also bitte genau durch, manche Dialekte sind nicht auf Anhieb als Deutsch zu erkennen. Tipp: Versuchen Sie im Zweifel, den Text laut zu lesen. So können Sie unter Umständen erkennen, ob etwas dialektal ist und nicht etwa eine Fremdsprache.
-                </p>
+                <p class="reduced-bottom-margin" v-html="$t('faq-5-answer')"></p>
               </template>
             </expandable>
             <expandable>
-              <template slot="header">Was passiert, wenn wir alle Texte bearbeitet haben?</template>
+              <template slot="header">{{ $t('faq-6-question') }}</template>
               <template slot="content">
-                <p class="reduced-bottom-margin">
-                  Wir möchten in diesem ersten Schritt zunächst alle geschlechtsspezifischen Hass-Ausdrücke identifizieren. Das geht am einfachsten, wenn wir Ihnen immer nur eine Nachricht nach der anderen zeigen. Im nächsten Schritt wird es darum gehen, die gefundenen Ausdrücke zu klassifizieren, also zu bestimmen, ob sie wirklich abwertend gebraucht werden oder ob sie sogar freundschaftlich gemeint sind. Um dies bestimmen zu können, muss die Nachricht im Zusammenhang mit der vorhergehenden und der nachfolgenden Nachricht gesehen werden. Wir werden also im zweiten Schritt auch die vorangehende und die folgende Nachricht zeigen und Sie fragen, wie Sie den Ausdruck klassifizieren. Wir würden uns freuen, wenn Sie auch an diesem Schritt mitarbeiten würden.
-                </p>
+                <p class="reduced-bottom-margin" v-html="$t('faq-6-answer')"></p>
               </template>
             </expandable>
             <expandable>
-              <template slot="header">Ihr sprecht immer von Chats, Nachrichten und Ausdrücken, was ist das genau?</template>
+              <template slot="header">{{ $t('faq-7-question') }}</template>
               <template slot="content">
-                <p class="reduced-bottom-margin">
-                  Wenn Sie mit jemandem per WhatsApp chatten, dann entsteht ein ganzer Dialog, in dem mal Sie und mal die andere(n) Person(en) etwas schreiben. Dieser Dialog zieht sich oft über ganze Jahre hin und wird von uns als Chat bezeichnet. In diesem Chat gibt es Sprechblasen, die Sie geschrieben haben und solche, die jemand anders geschrieben hat. Jede einzelne Sprechblase bezeichnen wir als Nachricht. Der Ausdruck schliesslich hat eigentlich nichts mit WhatsApp zu tun, sondern ist das, was wir suchen, nämlich den Teil einer Nachricht, in dem geschlechtsspezifischer Hass ausgedrückt wird.
-                </p>
+                <p class="reduced-bottom-margin" v-html="$t('faq-7-answer')"></p>
               </template>
             </expandable>
           </div>
