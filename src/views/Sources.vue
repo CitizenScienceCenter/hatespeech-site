@@ -5,11 +5,11 @@
 
   "page-title": "Textquellen",
 
-  "page-heading": "Woher stammen die Texte?",
+  "page-heading": "Woher stammten die Texte?",
 
-  "paragraph-1": "Die WhatsApp Gespräche, die hier Verwendung finden, wurden uns 2014 von der Schweizer Bevölkerung mit der Erlaubnis geschickt, sie für wissenschaftliche Zwecke zu verwenden. Sie wurden bereits in einem <b><a href='https://www.whatsup-switzerland.ch' target='_blank'>grösseren Projekt</a></b> von WissenschaftlerInnen erforscht, allerdings unter anderen Fragestellungen.",
+  "paragraph-1": "Die WhatsApp Gespräche, die hier Verwendung fanden, wurden uns 2014 von der Schweizer Bevölkerung mit der Erlaubnis geschickt, sie für wissenschaftliche Zwecke zu verwenden. Sie wurden bereits in einem <b><a href='https://www.whatsup-switzerland.ch' target='_blank'>grösseren Projekt</a></b> von Wissenschaftler*innen erforscht, allerdings unter anderen Fragestellungen.",
   "paragraph-2": "Wenn man private Unterhaltungen untersuchen will, stellt sich die Frage, wie man zu diesen Daten kommt. In unserem Fall bauten wir bereits 2014 auf die Mitarbeit der Schweizer Bevölkerung. Nach entsprechenden Aufrufen in der Presse erhielten wir 617 ganze Chats zugeschickt. Diese enthielten ~750'000 Nachrichten, bestehend aus insgesamt ~5.5 Millionen Wörtern, die wir unter der Leitung von Prof. Dr. Elisabeth Stark in einem grösseren Projekt Doktorierenden und Post-Docs für deren Forschungsarbeiten zur Verfügung stellten.",
-  "paragraph-3": "Die Daten wurden durch uns anonymisiert, d.h. alle Namen und sonstigen persönlichen Informationen wurden nach bestem Wissen und Gewissen entfernt oder im Falle von Vornamen verändert, um die Identität der Daten-SpenderInnen zu schützen. Wenn Sie also im Text den Namen <i>Peter</i> sehen, so stand hier im ursprünglichen Text vielleicht <i>Paul</i> oder Hans."
+  "paragraph-3": "Die Daten wurden durch uns anonymisiert, d.h. alle Namen und sonstigen persönlichen Informationen wurden nach bestem Wissen und Gewissen entfernt oder im Falle von Vornamen verändert, um die Identität der Daten-Spender*innen zu schützen. Wenn Sie also im Text den Namen <i>Peter</i> sehen, so stand hier im ursprünglichen Text vielleicht <i>Paul</i> oder Hans."
 
   }
 

@@ -8,14 +8,14 @@
   "cover-button-secondary": "Über das Projekt",
 
   "intro-heading": "Worum geht’s?",
-  "intro-text": "Hassausdrücke in den neuen Medien sind im Moment in aller Munde. Doch werden sie auch in privater Korrespondenz verwendet? Das möchten wir anhand von WhatsApps Texten, die uns von der Bevölkerung zur Verfügung gestellt wurden, herausfinden.",
+  "intro-text": "Hassausdrücke in den neuen Medien sind im Moment in aller Munde. Doch werden sie auch in privater Korrespondenz verwendet? Das Projekt wollte dies anhand von WhatsApps Texten, die von der Bevölkerung zur Verfügung gestellt wurden, herausfinden.",
   "intro-button": "Mehr erfahren",
 
-  "identification-heading": "Ihre Hilfe ist gefragt",
-  "identification-text": "Um unsere Ziele zu erreichen, bitten wir um Ihre Hilfe. In einem ersten Schritt (Identifikation) geht es darum, möglichst viele Texte anzuschauen und nach möglichen geschlechtsspezifischen Hassausdrücken zu suchen. Wenn uns möglichst viele Leute dabei helfen, sollte diese Suche einigermassen schnell zu Resultaten führen. Damit nicht alle 750'000 Botschaften gelesen werden müssen, werden wir danach die gefundenen Hassausdrücke auch in den noch nicht gelesenen Botschaften suchen. So sollten wir zu einer stattlichen Anzahl von Belegen kommen.",
+  "identification-heading": "Aufgaben der Citizen Scientists",
+  "identification-text": "In einem ersten Schritt (Identifikation) ging es darum, möglichst viele Texte anzuschauen und nach möglichen geschlechtsspezifischen Hassausdrücken zu suchen. Damit nicht alle 750'000 Nachrichten gelesen werden mussten, wurden die gefundenen Hassausdrücke der ersten 1000 bis 2000 Nachrichten auch in den noch nicht gelesenen Nachrichten gesucht.",
 
-  "sources-heading": "Woher stammen die Texte?",
-  "sources-text": "Die WhatsApp Gespräche, die hier Verwendung finden, wurden uns 2014 von der Schweizer Bevölkerung zur Verfügung gestellt.",
+  "sources-heading": "Woher stammten die Texte?",
+  "sources-text": "Die WhatsApp Gespräche, die hier Verwendung fanden, wurden uns 2014 von der Schweizer Bevölkerung zur Verfügung gestellt.",
   "sources-button": "Mehr erfahren"
 
   }
