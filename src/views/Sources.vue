@@ -18,26 +18,30 @@
 
 <template>
   <div>
-
     <app-content-section class="overflow-hidden">
-      <div class="background-wrapper background-wrapper-move-right scroll-effect scroll-effect-delayed-1">
+      <div
+        class="background-wrapper background-wrapper-move-right scroll-effect scroll-effect-delayed-1"
+      >
         <div class="content-wrapper">
           <div class="row row-centered row-in-background">
-            <div class="col col-tablet-portrait-10 col-large-7 col-large-before-1 col-wrapping col-large-no-bottom-margin">
-              <img src="/img/people-with-phones.jpg" style="border-radius:50%"/>
+            <div
+              class="col col-tablet-portrait-10 col-large-7 col-large-before-1 col-wrapping col-large-no-bottom-margin"
+            >
+              <img src="/img/people-with-phones.jpg" style="border-radius:50%" />
             </div>
           </div>
         </div>
       </div>
       <div class="content-wrapper">
         <div class="row">
-          <div class="col col-tablet-portrait-7 col-large-6 col-large-before-1 col-wrapping scroll-effect">
-            <h2 class="heading centered left-aligned-large">{{ $t('page-heading') }}</h2>
+          <div
+            class="col col-tablet-portrait-7 col-large-6 col-large-before-1 col-wrapping scroll-effect"
+          >
+            <h2 class="heading centered left-aligned-large">{{ $t("page-heading") }}</h2>
             <p v-html="$t('paragraph-1')"></p>
             <p v-html="$t('paragraph-2')"></p>
             <p v-html="$t('paragraph-3')"></p>
           </div>
-
         </div>
       </div>
     </app-content-section>
@@ -45,47 +49,41 @@
     <section-newsletter-signup></section-newsletter-signup>
 
     <app-footer></app-footer>
-
   </div>
 </template>
 
 <script>
+import { mapState } from "vuex";
 
-import {mapState} from 'vuex'
-
-import ContentSection from '@/components/shared/ContentSection.vue';
-import Footer from '@/components/shared/Footer.vue';
+import ContentSection from "@/components/shared/ContentSection.vue";
+import Footer from "@/components/shared/Footer.vue";
 import SectionNewsletterSignup from "@/components/shared/SectionNewsletterSignup";
 
-
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-      SectionNewsletterSignup,
-    'app-content-section': ContentSection,
-    'app-footer': Footer
+    SectionNewsletterSignup,
+    "app-content-section": ContentSection,
+    "app-footer": Footer,
   },
   metaInfo: function() {
-      return {
-          title: this.$t('page-title'),
-          meta: [
-              {
-                  property: 'og:title',
-                  content: this.$t('page-title'),
-                  template: '%s | '+this.$t('site-title')
-              }
-          ]
-      }
+    return {
+      title: this.$t("page-title"),
+      meta: [
+        {
+          property: "og:title",
+          content: this.$t("page-title"),
+          template: "%s | " + this.$t("site-title"),
+        },
+      ],
+    };
   },
   computed: {
-      ...mapState({
-          user: state => state.c3s.user
-      })
-  }
-}
-
+    // ...mapState({
+    //     user: state => state.c3s.user
+    // })
+  },
+};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

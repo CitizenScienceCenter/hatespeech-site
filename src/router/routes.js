@@ -1,12 +1,12 @@
-import Identification from '@/views/Identification';
-import IdentificationComplete from '@/views/IdentificationComplete';
-import Forum from '@/views/Forum';
+// import Identification from '@/views/Identification';
+// import IdentificationComplete from '@/views/IdentificationComplete';
+// import Forum from '@/views/Forum';
 
-import Login from '@/views/shared/user/Login';
-import Register from '@/views/shared/user/Register';
-import Profile from '@/views/shared/user/Profile';
-import RequestReset from '@/views/shared/user/RequestReset';
-import Reset from '@/views/shared/user/Reset';
+// import Login from '@/views/shared/user/Login';
+// import Register from '@/views/shared/user/Register';
+// import Profile from '@/views/shared/user/Profile';
+// import RequestReset from '@/views/shared/user/RequestReset';
+// import Reset from '@/views/shared/user/Reset';
 
 // lazy loading routes
 const Home = resolve => {
@@ -44,23 +44,23 @@ export const routes = [
                     nav: false
                 }
             },
-            {
-                path: "identification",
-                meta: {requiresAuth: true, i18n: 'navigation-identification', nav: true},
-                component: Identification,
-                children: [
-                    {
-                        path: ":id",
-                        component: Identification,
-                        meta: { requiresAuth: true, i18n: 'navigation-identification' }
-                    }
-                ]
-            },
-            {
-                path: "complete",
-                component: IdentificationComplete,
-                meta: {i18n: 'navigation-complete', nav: false}
-            },
+            // {
+            //     path: "identification",
+            //     meta: {requiresAuth: true, i18n: 'navigation-identification', nav: true},
+            //     component: Identification,
+            //     children: [
+            //         {
+            //             path: ":id",
+            //             component: Identification,
+            //             meta: { requiresAuth: true, i18n: 'navigation-identification' }
+            //         }
+            //     ]
+            // },
+            // {
+            //     path: "complete",
+            //     component: IdentificationComplete,
+            //     meta: {i18n: 'navigation-complete', nav: false}
+            // },
             {
                 path: "about",
                 component: About,
@@ -71,47 +71,47 @@ export const routes = [
                 component: Sources,
                 meta: {i18n: 'navigation-sources', nav: true}
             },
-            {
-                path: "forum",
-                component: Forum,
-                name: "Forum",
-                meta: {requiresAuth: true, i18n: 'navigation-forum', nav: true},
-            },
+            // {
+            //     path: "forum",
+            //     component: Forum,
+            //     name: "Forum",
+            //     meta: {requiresAuth: true, i18n: 'navigation-forum', nav: true},
+            // },
             {
                 path: "terms",
                 component: Terms,
                 meta: {i18n: "navigation-terms", nav: false}
             },
-            {
-                path: "login",
-                name: "Login",
-                component: Login,
-                meta: {i18n: 'navigation-login', nav: false}
-            },
-            {
-                path: "register",
-                name: "Register",
-                component: Register,
-                meta: {i18n: 'navigation-register', nav: false}
-            },
-            {
-                path: "reset",
-                name: "ResetRequest",
-                component: RequestReset,
-                meta: {i18n: 'navigation-reset', nav: false}
-            },
-            {
-                path: "reset/:token",
-                name: "Reset",
-                component: Reset,
-                meta: {i18n: 'navigation-reset', nav: false}
-            },
-            {
-                path: "profile",
-                name: "UserProfile",
-                component: Profile,
-                meta: {requiresAccount: true, i18n: 'navigation-profile', nav: false}
-            },
+            // {
+            //     path: "login",
+            //     name: "Login",
+            //     component: Login,
+            //     meta: {i18n: 'navigation-login', nav: false}
+            // },
+            // {
+            //     path: "register",
+            //     name: "Register",
+            //     component: Register,
+            //     meta: {i18n: 'navigation-register', nav: false}
+            // },
+            // {
+            //     path: "reset",
+            //     name: "ResetRequest",
+            //     component: RequestReset,
+            //     meta: {i18n: 'navigation-reset', nav: false}
+            // },
+            // {
+            //     path: "reset/:token",
+            //     name: "Reset",
+            //     component: Reset,
+            //     meta: {i18n: 'navigation-reset', nav: false}
+            // },
+            // {
+            //     path: "profile",
+            //     name: "UserProfile",
+            //     component: Profile,
+            //     meta: {requiresAccount: true, i18n: 'navigation-profile', nav: false}
+            // },
             {
                 path: "error",
                 name: "Error",
