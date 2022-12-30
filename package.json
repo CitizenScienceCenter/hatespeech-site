@@ -14,7 +14,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "simple-analytics-vue": "^1.1.0",
-    "swagger-client": "^3.8.25",
+    "swagger-client": "^3.18.5",
     "vue": "^2.6.10",
     "vue-i18n": "^8.10.0",
     "vue-meta": "^1.6.0",
